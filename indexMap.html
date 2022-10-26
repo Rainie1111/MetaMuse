@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
-    <meta name="Keywords" content="关键词，关键字">
-		<meta name="Description" content="描述信息">
     <title>缪斯·索引地图</title>
     <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css" />
   
@@ -19,7 +17,7 @@
         }
         .input-card {
             width: 150px;
-            top: 20px;
+            top: 120px;
             left: 20px;
             bottom: auto;
         }
@@ -27,6 +25,23 @@
             height: 100%;
             width: 100%;
             float: left;
+        }
+        .title {
+            position: absolute;
+            width: 500px;
+            top: -100px;
+            left: 0px;
+            z-index: 2;
+        }
+
+        h1 {
+            margin: 0;
+            color: #abb3bb;
+        }
+        h3 {
+            font-weight: normal;
+            margin-top: 10px;
+            color: #89A9C3;
         }
         .info-title{
             font-weight: bolder;
@@ -71,7 +86,7 @@
             width: 280px;
         }
         #panel .amap-call {
-            background-color: #009cf9;
+            background-color: #a81f1f;
             border-top-left-radius: 4px;
    	        border-top-right-radius: 4px;
         }
@@ -80,14 +95,14 @@
    	        border-bottom-right-radius: 4px;
             overflow: hidden;
         }
-
+      
     </style>
     <script type="text/javascript">
         window._AMapSecurityConfig = {
             securityJsCode: '451a55b56a0cc5e4bede7b56e3147c34',
         }
     </script>
-    <script src="https://webapi.amap.com/maps?v=2.0&key=7e0beb8d35c07599faed4d0f2c2c045a&&plugin=AMap.Scale,AMap.HawkEye,AMap.ToolBar,AMap.ControlBar,AMap.PlaceSearch,AMap.InfoWindow,AMap.Driving"></script>
+    <script src="https://webapi.amap.com/maps?v=2.0&key=7e0beb8d35c07599faed4d0f2c2c045a&&plugin=AMap.Scale,AMap.HawkEye,AMap.ToolBar,AMap.ControlBar,AMap.PlaceSearch,AMap.InfoWindow,AMap.Driving,AMap.AutoComplete"></script>
     <script src="https://webapi.amap.com/loca?v=2.0&key=7e0beb8d35c07599faed4d0f2c2c045a"></script>
     <script type="text/javascript" src="https://cache.amap.com/lbs/static/addToolbar.js">
     </script>
@@ -96,8 +111,7 @@
 </head>
 
 <body>
- <div id="container"></div>
- <div id="container" class="map"></div>
+ <div id="map" class="map"></div>
     <div id="tip">鼠标悬停热点试试</div>
     <div class='input-card'>
         <div class="input-item">
@@ -120,15 +134,18 @@
 				<div class="search">
 					<span>出发地:<input type="text" class="txt" id="start"></span>
 					<span>目的地:<input type="text" class="txt" id="end"></span>
-					<input type="button" value="查询" class="btn" οnclick="driving.search();">
+					<input type="button" value="查询" class="btn" οnclick="toSearch();">
 				</div>
 			</div>
 		</div>		
-        <div id="container"></div>
+        <div id="map"></div>
 		<div id="panel"></div>
-
+        <div class="title">
+            <h1>北京艺术机构（红点）</h1>
+            <h3>如您有新增相关信息请联系zoececiliavalerian@gmail.com</h3>
+        </div>
     <script>
-        var map = new AMap.Map('container', {
+        var map = new AMap.Map('map', {
             zoom: 12,
             showLabel: true,
             isHotspot: true,
@@ -1266,19 +1283,1083 @@
           yoyo:true,
           repeat: 100000
         });
-var driving = new AMap.Driving({
-        map: map,
-        panel: "panel"     }); 
+       
+        var labelsLayer = (window.labelsLayer = new Loca.LabelsLayer({
+            zooms: [13, 20],
+        }));
+    
+        var neo = new Loca.GeoJSONSource({
+          data: {
+            "type": "FeatureCollection",
+            "features": [
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.397026, 39.918058]
+                  },
+                  "properties": {
+                      "name": "故宫博物院",
+                  }
+              }, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.317868, 39.952595]
+                  },
+                  "properties": {
+                      "name": "北京艺术博物馆",
+                  }
+                }, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.314027, 39.93642]
+                  },
+                  "properties": {
+                      "name": "首都师范大学历史博物馆",
+                  }
+                }, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.312417, 40.001713]
+                  },
+                  "properties": {
+                      "name": "北京大学塞克勒考古与艺术博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.342213, 40.00764]
+                  },
+                  "properties": {
+                      "name": "清华大学艺术博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.325517, 39.982515]
+                  },
+                  "properties": {
+                      "name": "海淀区博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.336979, 39.950566]
+                  },
+                  "properties": {
+                      "name": "北京石刻艺术博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.371924, 39.967393]
+                  },
+                  "properties": {
+                      "name": "北京师范大学文物博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.326493, 39.964717]
+                  },
+                  "properties": {
+                      "name": "北京理工大学艺术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.354141, 39.988268]
+                  },
+                  "properties": {
+                      "name": "北京航空航天大学艺术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.317208, 39.944164]
+                  },
+                  "properties": {
+                      "name": "中国美术画院美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.237629, 39.959846]
+                  },
+                  "properties": {
+                      "name": "中间美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.274319, 39.952312]
+                  },
+                  "properties": {
+                      "name": "马奈草地美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.233305, 39.953696]
+                  },
+                  "properties": {
+                      "name": "筑中美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.187625, 40.097598]
+                  },
+                  "properties": {
+                      "name": "海淀美术馆（北馆）",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.328241, 39.91709]
+                  },
+                  "properties": {
+                      "name": "中华世纪坛世界艺术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.402875, 39.634568]
+                  },
+                  "properties": {
+                      "name": "坦博艺苑",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.310325, 39.966711]
+                  },
+                  "properties": {
+                      "name": "至高美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.285488, 39.917057]
+                  },
+                  "properties": {
+                      "name": "北京时代美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.254879, 40.081588]
+                  },
+                  "properties": {
+                      "name": "壹美美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.308719, 39.951716]
+                  },
+                  "properties": {
+                      "name": "银河空间美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.285389, 39.977336]
+                  },
+                  "properties": {
+                      "name": "81美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.267502, 39.952346]
+                  },
+                  "properties": {
+                      "name": "茂庭艺术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.471642, 39.946271]
+                  },
+                  "properties": {
+                      "name": "秋醒楼画廊",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.238703, 39.956861]
+                  },
+                  "properties": {
+                      "name": "诚一斋美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.254065, 39.989537]
+                  },
+                  "properties": {
+                      "name": "玉泉山美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.31722, 39.944551]
+                  },
+                  "properties": {
+                      "name": "中国美术报艺术中心",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.164868, 40.084347]
+                  },
+                  "properties": {
+                      "name": "凤凰岭美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.206491, 39.936965]
+                  },
+                  "properties": {
+                      "name": "石景山区文化中心",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.242995, 39.91564]
+                  },
+                  "properties": {
+                      "name": "郎园Park-像素画廊",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.717872, 39.96543]
+                  },
+                  "properties": {
+                      "name": "北京经典美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.284943, 39.938122]
+                  },
+                  "properties": {
+                      "name": "国墨今典艺术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.278644, 39.93152]
+                  },
+                  "properties": {
+                      "name": "中华慈善艺术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.286212, 39.934589]
+                  },
+                  "properties": {
+                      "name": "恩济美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.308365, 39.9523]
+                  },
+                  "properties": {
+                      "name": "雅明泰美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.317193, 39.95365]
+                  },
+                  "properties": {
+                      "name": "八一剧场",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.32923, 39.958231]
+                  },
+                  "properties": {
+                      "name": "中央民族歌舞团民族剧院",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.317356, 39.954751]
+                  },
+                  "properties": {
+                      "name": "中国剧院",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.238411, 39.959562]
+                  },
+                  "properties": {
+                      "name": "中间剧场",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.285151, 39.914933]
+                  },
+                  "properties": {
+                      "name": "嘻哈包袱铺五棵松分店",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.376727, 39.987335]
+                  },
+                  "properties": {
+                      "name": "国安剧院",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.314806, 39.978273]
+                  },
+                  "properties": {
+                      "name": "中国人民大学如论讲堂",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.320251, 39.975882]
+                  },
+                  "properties": {
+                      "name": "中国人民大学博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.265797, 39.928998]
+                  },
+                  "properties": {
+                      "name": "梦剧场-DreamTheata",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.362805, 39.959144]
+                  },
+                  "properties": {
+                      "name": "熙剧场(枫蓝国际购物中心店)",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.166808, 40.07096]
+                  },
+                  "properties": {
+                      "name": "红点剧场",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.32496, 39.982536]
+                  },
+                  "properties": {
+                      "name": "海淀剧场",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.317516, 39.996205]
+                  },
+                  "properties": {
+                      "name": "北京大学百年纪念讲堂",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.331014, 40.009474]
+                  },
+                  "properties": {
+                      "name": "清华大学大礼堂",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.415449, 39.931473]
+                  },
+                  "properties": {
+                      "name": "中国美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.408016, 39.91146]
+                  },
+                  "properties": {
+                      "name": "中国国家博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.471944, 39.989839]
+                  },
+                  "properties": {
+                      "name": "中央美术学院美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.363826, 39.87908]
+                  },
+                  "properties": {
+                      "name": "古陶文明博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.506323, 40.04854]
+                  },
+                  "properties": {
+                      "name": "红砖美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.637352, 39.999889]
+                  },
+                  "properties": {
+                      "name": "打工文化艺术博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.501458, 39.99022]
+                  },
+                  "properties": {
+                      "name": "UCCA尤伦斯当代艺术中心",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.388028, 40.008779]
+                  },
+                  "properties": {
+                      "name": "国家动物博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.400322, 40.00572]
+                  },
+                  "properties": {
+                      "name": "北京工艺美术博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.42107, 39.995586]
+                  },
+                  "properties": {
+                      "name": "西藏文化博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.471642, 39.946271]
+                  },
+                  "properties": {
+                      "name": "全国农业展览馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.527508, 40.002177]
+                  },
+                  "properties": {
+                      "name": "中国电影博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.522415, 40.003628]
+                  },
+                  "properties": {
+                      "name": "中国铁道博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.403001, 39.996847]
+                  },
+                  "properties": {
+                      "name": "北京奥运博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.397809, 39.989379]
+                  },
+                  "properties": {
+                      "name": "中华民族博物院",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.45072, 39.929778]
+                  },
+                  "properties": {
+                      "name": "北京民俗博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.540397, 40.013309]
+                  },
+                  "properties": {
+                      "name": "观复博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.54427, 40.024063]
+                  },
+                  "properties": {
+                      "name": "民航博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.477912, 39.966406]
+                  },
+                  "properties": {
+                      "name": "北京和苑博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.474333, 39.905621]
+                  },
+                  "properties": {
+                      "name": "北京今日美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.49931, 39.994507]
+                  },
+                  "properties": {
+                      "name": "北京民生现代美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.501799, 39.992234]
+                  },
+                  "properties": {
+                      "name": "木木美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.420003, 39.933151]
+                  },
+                  "properties": {
+                      "name": "木木艺术社区",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.455849, 39.925709]
+                  },
+                  "properties": {
+                      "name": "侨福当代美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.580649, 39.94778]
+                  },
+                  "properties": {
+                      "name": "观唐美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.503044, 39.992458]
+                  },
+                  "properties": {
+                      "name": "白盒子艺术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.469595, 40.019051]
+                  },
+                  "properties": {
+                      "name": "元典美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.524991, 39.930682]
+                  },
+                  "properties": {
+                      "name": "U2美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.485377, 40.054804]
+                  },
+                  "properties": {
+                      "name": "X美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.487376, 39.873466]
+                  },
+                  "properties": {
+                      "name": "山水美术馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.501457, 39.992205]
+                  },
+                  "properties": {
+                      "name": "北京常青画廊",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.502065, 39.9895]
+                  },
+                  "properties": {
+                      "name": "北京东京画廊",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.512678, 40.003504]
+                  },
+                  "properties": {
+                      "name": "北京香格纳画廊",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.504561, 39.992538]
+                  },
+                  "properties": {
+                      "name": "偏锋新艺术空间",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.503106, 39.990522]
+                  },
+                  "properties": {
+                      "name": "麦勒画廊",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.51043, 40.00404]
+                  },
+                  "properties": {
+                      "name": "前波画廊",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.501251, 39.992227]
+                  },
+                  "properties": {
+                      "name": "当代唐人艺术中心",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.39914, 39.985822]
+                  },
+                  "properties": {
+                      "name": "苗族博物馆",
+                  }}, 
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.532527, 39.916834]
+                  },
+                  "properties": {
+                      "name": "中国紫檀博物馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.413663, 39.864197]
+                  },
+                  "properties": {
+                      "name": "景泰蓝博物馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.434882, 39.88388]
+                  },
+                  "properties": {
+                      "name": "百工博物馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.43705, 39.8982]
+                  },
+                  "properties": {
+                      "name": "北京睦明堂古瓷标本博物馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.43294,  39.94513]
+                  },
+                  "properties": {
+                      "name": "中国历史博物馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.39164, 39.92967]
+                  },
+                  "properties": {
+                      "name": "文津雕版博物馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.34882, 39.91217]
+                  },
+                  "properties": {
+                      "name": "首都博物馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.31588, 39.97912]
+                  },
+                  "properties": {
+                      "name": "中国民族博物馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.32476, 39.95487]
+                  },
+                  "properties": {
+                      "name": "中央民族大学博物馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.41338, 39.91092]
+                  },
+                  "properties": {
+                      "name": "艺之道画廊",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.48443, 40.00287]
+                  },
+                  "properties": {
+                      "name": "悦·艺术空间",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.64236, 40.42434]
+                  },
+                  "properties": {
+                      "name": "东方阁美术馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.42727, 39.95481]
+                  },
+                  "properties": {
+                      "name": "雍和美术馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.54741, 39.91692]
+                  },
+                  "properties": {
+                      "name": "北京后街美术馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.42607, 39.91652]
+                  },
+                  "properties": {
+                      "name": "视觉经典美术馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.41544, 39.93147]
+                  },
+                  "properties": {
+                      "name": "中国美术馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.45584, 39.92570]
+                  },
+                  "properties": {
+                      "name": "当代美术馆",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.40448, 39.88871]
+                  },
+                  "properties": {
+                      "name": "北京天桥艺术中心",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.39169, 39.92971]
+                  },
+                  "properties": {
+                      "name": "陈长芬艺术中心",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.41694, 39.92994]
+                  },
+                  "properties": {
+                      "name": "嘉德艺术中心",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.46857, 39.89774]
+                  },
+                  "properties": {
+                      "name": "中国歌舞剧院",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.37626, 39.91394]
+                  },
+                  "properties": {
+                      "name": "民族文化宫大剧院",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.39625, 39.91122]
+                  },
+                  "properties": {
+                      "name": "国家大剧院",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.41849, 39.92788]
+                  },
+                  "properties": {
+                      "name": "北京人民艺术剧院",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.37178, 39.93796]
+                  },
+                  "properties": {
+                      "name": "国家京剧院",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.36375, 39.93700]
+                  },
+                  "properties": {
+                      "name": "梅兰芳大剧院",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.44189, 39.94012]
+                  },
+                  "properties": {
+                      "name": "保利剧院",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.44315, 39.93523]
+                  },
+                  "properties": {
+                      "name": "中央歌剧院",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.67162, 39.91646]
+                  },
+                  "properties": {
+                      "name": "“新华1949”文化金融与创新产业",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.33735, 40.00019]
+                  },
+                  "properties": {
+                      "name": "清华科技园",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.32495, 39.98387]
+                  },
+                  "properties": {
+                      "name": "中关村软件园",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.37371, 39.98429]
+                  },
+                  "properties": {
+                      "name": "中关村数字电视产业园",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.35860, 40.01469]
+                  },
+                  "properties": {
+                      "name": "中关村东升文化科技园",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.32545, 39.97708]
+                  },
+                  "properties": {
+                      "name": "中国人民大学文化科技园",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.29865, 40.06590]
+                  },
+                  "properties": {
+                      "name": "百旺弘祥文化创意产业园",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.36587, 39.97203]
+                  },
+                  "properties": {
+                      "name": "海淀文教产业园",
+                  } },
+{"type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [116.32495, 39.98387]
+                  },
+                  "properties": {
+                      "name": "中关村创客小镇",
+                  } }
 
-        var start=document.getElementById("start").value;
-		var end=document.getElementById("end").value;
-				
-	 driving.search([
-					{keyword:start,city:'北京'},
-					{keyword:end,city:'北京'}
-				]);
-               
+                  ]
+          }
+      });    
+        labelsLayer.setSource(neo);
+       
+        labelsLayer.setStyle({
+          
+          text: {
+              // 每项配置都可使用回调函数来动态配置
+              content: (index, feat) => {
+                  return feat.properties.name;
+              },
+              style: {
+                  fontSize: 15,
+                  fontWeight: 'normal',
+                  fillColor: '#554f05',
+                  strokeColor: '#ffffff',
+                    strokeWidth: 2,
+              },
+              direction: 'bottom',
+          },
+          extData: (index, feat) => {
+              return feat.properties;
+          },
+      });
+      loca.add(labelsLayer);
 
+      var autoOptions = {
+        input: "start"
+    };
+  
+
+    AMap.plugin(['AMap.PlaceSearch','AMap.AutoComplete'], function(){
+        var auto = new AMap.AutoComplete(autoOptions);
+        var placeSearch = new AMap.PlaceSearch({
+            pageSize: 5, 
+            pageIndex: 1, 
+            city: "010", 
+            citylimit: true,  
+            map: map, 
+            panel: "panel", 
+            autoFitView: true 
+        }); 
+        auto.on("select", select);
+        function select(e) {
+            placeSearch.setCity(e.poi.adcode);
+            placeSearch.search(e.poi.name); 
+        }
+    });  
+
+    var autoOptions = {
+        input: "end"
+    };
+    AMap.plugin(['AMap.PlaceSearch','AMap.AutoComplete'], function(){
+        var auto = new AMap.AutoComplete(autoOptions);
+        var placeSearch = new AMap.PlaceSearch({
+            pageSize: 5, 
+            pageIndex: 1, 
+            city: "010", 
+            citylimit: true,  
+            map: map, 
+            panel: "panel", 
+            autoFitView: true 
+        });
+        auto.on("select", select);
+        function select(e) {
+            placeSearch.setCity(e.poi.adcode);
+            placeSearch.search(e.poi.name); 
+        }
+    });  
+  
+  
 
     </script>
 </body>
