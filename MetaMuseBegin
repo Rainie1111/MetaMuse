@@ -1,0 +1,881 @@
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" class="ancient-ie old-ie bit-html" dir="ltr" lang="zh-CN">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" class="ancient-ie old-ie  bit-html" dir="ltr" lang="zh-CN">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" class="old-ie bit-html" dir="ltr" lang="zh-CN">
+<![endif]-->
+<!--[if IE 9]>
+<html id="ie9" class="old-ie9 bit-html" dir="ltr" lang="zh-CN">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9)  ]><!-->
+<html class="bit-html" dir="ltr" lang="zh-CN">
+<!--<![endif]-->
+<head>
+	<!-- for 360 -->
+	<meta name="renderer" content="webkit">
+	<meta name="applicable-device" content="pc,mobile"> <!-- for baidu -->
+	<meta http-equiv="Cache-Control" content="no-transform" /> <!-- for baidu -->
+    <meta name="MobileOptimized" content="width"/><!-- for baidu -->
+    <meta name="HandheldFriendly" content="true"/><!-- for baidu -->
+    <!-- start of customer header -->
+	    <!-- end of customer header -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="robots" content="index, follow" />
+<title>遇见缪斯·北京</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://5cdd3aa5c46ea.t73.qifeiye.com/xmlrpc.php" />
+    
+
+	<!--[if lt IE 9]>
+	<script src="https://5cdd3aa5c46ea.t73.qifeiye.com/FeiEditor/bitSite/js/html5shiv.min.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="https://5cdd3aa5c46ea.t73.qifeiye.com/FeiEditor/bitSite/js/respond.min.js"></script>
+	<![endif]-->
+	<style type="text/css" id="static-stylesheet"></style>
+	<link rel='stylesheet' id='FeiEditor_respond-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/FeiEditor/bitSite/css/respond.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='bitcommerce-layout-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/bitcommerce/assets/css/bitcommerce-layout.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='bitcommerce-smallscreen-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/bitcommerce/assets/css/bitcommerce-smallscreen.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='bitcommerce-custom-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/uploads/wc-custom-style.css?ver=1662359130' type='text/css' media='all' />
+<link rel='stylesheet' id='qfy_editor_front-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/css/qfy_editor_front.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_carousel_css-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/lib/vc_carousel/css/vc_carousel.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='qfyuser_font-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfyuser/css/qfyuser-font.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='qfyuser_min-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfyuser/css/qfyuser.min.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='qfyuser_skin_min-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfyuser/skins/elegant/style.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='main-fonts-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/css/main.font.cdn.default.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-main-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/css/main.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-dt-custom-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/css/wc.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-custom-less-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/uploads/qf-less/qfy-01/css/custom-a6b34c9ba7.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-bit-custom-less-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/uploads/qf-less/qfy-01/css/bit-custom-a6b34c9ba7.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='qfy_dynamic_css-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/uploads/qfy-custom-style.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome_css-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/css/font-awesome.min.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-awsome-fonts-boot-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/css/bootstrap.min.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/style.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-media-op-css-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/FeiEditor/bitSite/css/opentip.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/css/animate.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-includes/js/thickbox/thickbox.css?ver=20131201' type='text/css' media='all' />
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-includes/js/jquery/jquery.js?ver=4.45'></script>
+<script>var geURL = 'https://5cdd3aa5c46ea.t73.qifeiye.com/ge/index.html?embed=1&ui=embed&spin=1&modified=unsavedChanges&proto=json&lang=zh';</script><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://5cdd3aa5c46ea.t73.qifeiye.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-includes/wlwmanifest.xml" /> 
+
+<link rel='canonical' href='https://5cdd3aa5c46ea.t73.qifeiye.com/' />
+<link rel='shortlink' href='https://5cdd3aa5c46ea.t73.qifeiye.com/?p=2160' />
+<style class='style_0'>.bitRightSider .widget-title,.bitLeftSider .widget-title{padding:0 0 0 10px;height:28px;line-height:28px;background-color:transparent;margin:0px;font-family:黑体;font-size:16px;font-weight:normal;font-style:normal;text-decoration:none;color:#ffffff;border-top:0;border-left:0;border-right:0;border-bottom:0;background-image:none;-webkit-border-top-left-radius: 0;-webkit-border-top-right-radius: 0;-moz-border-radius-topleft: 0;-moz-border-radius-topright: 0;border-top-left-radius: 0;border-top-right-radius: 0;} .bitRightSider .widget-title,.bitLeftSider .widget-title{border-top:0;border-left:0;border-right:0;} .bitRightSider .bitWidgetFrame,.bitLeftSider .bitWidgetFrame{border-bottom:0;border-top:0;border-left:0;border-right:0;padding:4px 10px 4px 10px;}.bitRightSider .site_tooler,.bitLeftSider .site_tooler{-webkit-box-shadow:none;box-shadow:none;}.bitRightLeftSiderWidget.site_tooler .bitWidgetFrame,.bitRightLeftSiderWidget.site_tooler .bitWidgetFrame{background-color:transparent;background-image:none;background-repeat: repeat;-webkit-border-bottom-left-radius: 0px;border-bottom-left-radius: 0px;-webkit-border-bottom-right-radius: 0px;border-bottom-right-radius: 0px;}</style><style class='style_0'>.footer .widget-title{padding:0 0 0 10px;height:28px;line-height:28px;background-color:#024886;margin:0px;font-family:;font-size:px;font-weight:normal;font-style:normal;text-decoration:none;color:#fff;border-top:0;border-left:0;border-right:0;border-bottom:0;background-image:none;-webkit-border-top-left-radius: 4px;-webkit-border-top-right-radius: 4px;-moz-border-radius-topleft: 4px;-moz-border-radius-topright: 4px;border-top-left-radius: 4px;border-top-right-radius: 4px;} .footer .widget-title{border-top:0;border-left:0;border-right:0;} .footer  .bitWidgetFrame{border-bottom:0;border-top:0;border-left:0;border-right:0;padding:4px 10px 4px 10px;}.footer .site_tooler{-webkit-box-shadow:none;box-shadow:none;}.footer .site_tooler .bitWidgetFrame{background-color:transparent;background-image:none;-webkit-border-bottom-left-radius: 4px;border-bottom-left-radius: 4px;-webkit-border-bottom-right-radius: 4px;border-bottom-right-radius: 4px;}</style>		<script type="text/javascript">
+		var qfyuser_ajax_url = 'https://5cdd3aa5c46ea.t73.qifeiye.com/admin/admin-ajax.php';
+		</script>
+			<script type="text/javascript">
+		var qfyuser_upload_url = 'https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfyuser/lib/fileupload/fileupload.php?upload_nonce=e9d4ace5c5';
+		</script>
+	<link rel="icon" href="https://i.postimg.cc/pX839BT2/logo-pure.png" type="image/png"/>
+<link rel="apple-touch-icon-precomposed" href="https://i.postimg.cc/pX839BT2/logo-pure.png" />
+<link rel="apple-touch-icon" href="https://i.postimg.cc/pX839BT2/logo-pure.png" />
+		<style type="text/css" >
+body {background-color: #ffffff;background-position:center top;background-repeat:repeat;background-size: cover;background-attachment: fixed;}
+#page{background-color: #ffffff;background-position:left top;background-repeat:no-repeat;background-size: auto;background-attachment: scroll;}
+</style>
+
+		<script type="text/javascript">
+
+            var dtGlobals={};dtGlobals.isMobile=(/(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|windows phone)/.test(navigator.userAgent));dtGlobals.isAndroid=(/(Android)/.test(navigator.userAgent));dtGlobals.isiOS=(/(iPhone|iPod|iPad)/.test(navigator.userAgent));dtGlobals.isiPhone=(/(iPhone|iPod)/.test(navigator.userAgent));dtGlobals.isiPad=(/(iPad)/.test(navigator.userAgent));dtGlobals.isBuggy=(navigator.userAgent.match(/AppleWebKit/)&&typeof window.ontouchstart==='undefined'&&!navigator.userAgent.match(/Chrome/));dtGlobals.isWindowsPhone=navigator.userAgent.match(/IEMobile/i);dtGlobals.customColor='red';if(dtGlobals.isMobile){document.documentElement.className+=" mobile-true"}else{document.documentElement.className+=" mobile-false"}dtGlobals.logoURL=false;dtGlobals.logoH=false;dtGlobals.logoW=false;
+            dtGlobals.visit_country_enable = '';
+            dtGlobals.logoEnabled = 1;dtGlobals.curr_id = '2160';dtGlobals.logoURL = '';dtGlobals.logoW = '0';dtGlobals.logoH = '0';dtGlobals.qfyname = '遇见缪斯';dtGlobals.id = '5cdd3aa5c46ea';dtGlobals.language = '';smartMenu = 0;document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/;SameSite=Lax';
+			dtGlobals.gallery_bgcolor = 'rgba(51,51,51,1)';dtGlobals.gallery_showthumbs = '0';dtGlobals.gallery_style = '';dtGlobals.gallery_autoplay = '0';dtGlobals.gallery_playspeed = '3';dtGlobals.gallery_imagesize = '100';dtGlobals.gallery_imageheight = '100';dtGlobals.gallery_stopbutton = '';dtGlobals.gallery_thumbsposition = '';dtGlobals.gallery_tcolor = '#fff';dtGlobals.gallery_tsize = '16';dtGlobals.gallery_dcolor = '#fff';dtGlobals.gallery_dsize = '14';dtGlobals.gallery_tfamily = '';dtGlobals.gallery_dfamily = '';dtGlobals.gallery_blankclose = '0';dtGlobals.gallery_arrowstyle = '0';dtGlobals.fm_showstyle = '';dtGlobals.fm_showspeed = '';dtGlobals.cdn_url = 'https://ccdn.goodq.top';dtGlobals.googlekey = '';dtGlobals.qfymodel = "";
+			            			var socail_back_url = '';
+			
+		</script>
+
+		</head>
+
+
+<body  class="home page page-id-2160 page-template-default image-blur widefull_topbar2 mobileleftbtnmenu btn-flat content-fullwidth qfe-js-composer js-comp-ver-4.0.1 vc_responsive" backgroundSize='true' data-pid="2160" data-pkey="43696bcdc4f8022776101003c5671fe2">
+
+
+
+<div   id="page"  class='bodyheader0 header-transparent wide ' >
+
+
+
+	<!-- left, center, classical, classic-centered -->
+	<!-- !Header -->
+	<header id="header" class="logo-left-right headerPM menuPosition transparent" role="banner"><!-- class="overlap"; class="logo-left", class="logo-center", class="logo-classic" -->
+		<div class="wf-wrap">
+			<div class="wf-table">
+
+
+				
+
+				
+		<!-- !- Navigation -->
+		<nav style="0" id="navigation" class="wf-td"   bitDataAction="site_menu_container" bitDataLocation="primary" >
+			<ul id="main-nav" data-st="0" data-sp="0"  data-fh="0" data-mw="1280" data-lh="48" class="mainmenu fancy-rollovers wf-mobile-hidden bit-menu-default underline-hover position-ab-center text-right"      data-bit-menu=underline-hover data-bit-float-menu=underline-hover data-sliderdown=sliderdown >
+</ul>			    <div class='menu_displaynone_header' style="display:none;">
+			    		<div class="inner"><div class="mobile_logo"><a class="bitem logo"  href="https://storymaps.arcgis.com/stories/70e7f88f54ce49999b0db98fbe5f0b91/"><span class="logospan" style="max-width:100px;max-height:100px;"><img class="preload-me" src="https://i.postimg.cc/W4cf528F/Meta-Muselogo-pure.png" width="118" height="75"   alt="MetaMuse遇见缪斯"  /></span></a></div></div>			    </div>
+			    <div class="menu_displaynone" style="display:none;">
+			    				    	<div class='loginbtncontainer'>
+			    		    			    		
+			    					    		<div style="clear:both;"></div>
+			    	</div>
+			    				    				    	<div class="loginbtncontainer_top">
+			    		            				<div style="padding-left:20px;padding-right:20px ;">
+                				     <div style="position:relative;";>
+                    				     <div style="left: 0;position: absolute;top: 0;width: 100%;height:100%;z-index:1;"></div>
+                            			<div  class="bitHeader-8 " bitdatamarker="bitHeader-8"  bitdataaction="site_widget_container" bitdatacolor="white"  style="position:relative;z-index:2;">
+                    					 <div id="bit_postlist-8"  style="margin-bottom:0;" class="bitHeader widget_text site_tooler"><div class="bitWidgetFrame "><div  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_column_search_706kw"  class="search_contain qfy-element " style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><style>
+    	   .search_from-633d7ae6ea123216029 #form_search::-moz-placeholder { color:#90af6b; }
+	   .search_from-633d7ae6ea123216029 #form_search::-webkit-input-placeholder { color:#90af6b; }
+        .search_from-633d7ae6ea123216029 .searchform>a{font-size:14px !important;}@media only screen and (max-width: 768px) { .search_from-633d7ae6ea123216029 .searchform{width:100% !important;} }</style>
+
+
+<div class="bitSearchFrom  search_from-633d7ae6ea123216029 text_center">
+	<form class="searchform "  method="get" action="https://storymaps.arcgis.com/stories/6d9ada96ccbe41aa9aa1d666e3bf4d08" style="width:220px;max-width:100%;" onsubmit="return searchResult(this);">
+		<input type="hidden"  name="page_id" value="5368" />		<input type="hidden"  name="searchtype" value="" />
+				<input type="text"  style="border:1px solid #90af6b;color:#90af6b;font-size:14px;line-height:16px;padding-top:px;padding-bottom:px;height:37px;" name="search" id="form_search" value="" placeholder="请输入检索名称" />
+		<input type="submit"  class="assistive-text searchsubmit" value="Go!" />
+						<a  style="width:auto;line-height: 37px;height: 37px;background: #90af6b none repeat scroll 0 0;border: 0 none;border-radius: 0;color: #ffffff;cursor: pointer;font-size: 14px;font-weight: normal;margin: 0;padding: 0px 10px ;text-indent: 0;text-shadow: none;transition: all 0.2s ease 0s;right: 0;top:0px;" class="submit fa fa-search"></a>
+	</form>
+</div>
+
+</div></div></div>                    					</div>
+                					</div>
+        					</div>
+			    	</div>
+			    </div>
+			    			    <div class="menu_displaynone_footer" style="display:none;">
+			    	<div class="loginbtncontainer_bottom">
+			    			            				<div style="padding-left:20px;padding-right:20px ;">
+                				     <div style="position:relative;";>
+                    				     <div style="left: 0;position: absolute;top: 0;width: 100%;height:100%;z-index:1;"></div>
+                            			<div  class="bitHeader-9 " bitdatamarker="bitHeader-9"  bitdataaction="site_widget_container" bitdatacolor="white"  style="position:relative;z-index:2;">
+                    					                     					</div>
+                					</div>
+        					</div>
+			    	</div>
+			    </div>
+			    
+			
+			<a  data-padding='' data-top='' data-right='' rel="nofollow" id="mobile-menu" style="display:none;" class="glyphicon glyphicon-icon-align-justify leftbtnmenu positionFixed left" >
+				<span class="menu-open  phone-text">首页</span>
+				<span class="menu-close">关闭</span>
+				<span class="menu-back">返回上一级</span>
+				<span class="wf-phone-visible">&nbsp;</span>
+			</a>
+
+
+					</nav>
+		<div style="display:none;" id="main-nav-slide">
+									<div class="main-nav-slide-inner" data-class="" >
+				<div  class="floatmenu-bar-right bit_widget_more" bitdatamarker="bitHeader-3" bitdataaction="site_fix_container" bitdatacolor="white">
+					 <div id="bit_postlist-7"  style="margin-top:0;margin-bottom:0;" class="headerWidget_1 widget_text site_tooler"><div class="bitWidgetFrame "><div id="icon-633d7ae6ea3e627368" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="0" data-anitime='0.7'   class="qfy-element vc_icon_element vc_icon_element-outer delay0 vc_icon_element-align-inline vc_icon_element-have-style icon-fontawesome">
+<style>
+#icon-633d7ae6ea3e627368 .vc_icon_element-inner:hover .vc_icon_element-icon,.hover #icon-633d7ae6ea3e627368 .vc_icon_element-inner .vc_icon_element-icon{color:#ffffff !important}
+#icon-633d7ae6ea3e627368 .vc_icon_element-inner:hover,.hover #icon-633d7ae6ea3e627368 .vc_icon_element-inner{background:#3472a7 !important;}</style>
+	<div  class=" vc_icon_element-inner vc_icon_element-color- vc_icon_element-have-style-inner vc_icon_element-size-xs vc_icon_element-style-boxed vc_icon_element-background vc_icon_element-background-color-" style="background-color:#3472a7;width:30px !important;height:30px !important;">
+				<span class="vc_icon_element-icon glyphicon glyphicon-icon-search" style="color:#ffffff;margin-left:1px;margin-top:-2px;"></span>
+				</div>
+
+
+</div>
+</div></div>				</div>
+			</div>
+		</div>
+
+									<div class="wf-td assistive-info 0 0 0 0" role="complementary" style="" >
+					  <div  class="top-bar-right right bit_widget_more" bitdatamarker="bitHeader-2" bitdataaction="site_fix_container" bitdatacolor="white"  style="">
+                          <div id="loginandregister-2"  style="margin-top:0;margin-bottom:0;" class="headerWidget_1 loginandregister site_tooler"><div style="display:inline-block;margin-right:20px;cursor:pointer;"><a   onclick="quick_search(this)"  data-pageid="5368"  data-title="" data-placeholder="" data-posttype="" data-postcate="" data-btn1="" data-btn2="" ><svg xmlns="http://www.w3.org/2000/svg" class="icon" style="width:28px;height:28px;font-size:14px;;position:relative;top:4px;" viewBox="0 0 1024 1024" version="1.1" onmouseover="this.getElementsByClassName('svgpath')[0].style.fill=''" onmouseout="this.getElementsByClassName('svgpath')[0].style.fill=''"><path class="svgpath" fill=""   d="M621.664 653.664c-44.48 31.68-98.88 50.336-157.664 50.336-150.208 0-272-121.792-272-272s121.792-272 272-272c150.208 0 272 121.792 272 272 0 75.104-30.432 143.104-79.68 192.32l191.904 191.904c8.8 8.8 8.576 22.912-0.256 31.744-8.896 8.896-23.04 8.96-31.744 0.256l-194.592-194.592zM464 672c132.544 0 240-107.456 240-240s-107.456-240-240-240c-132.544 0-240 107.456-240 240s107.456 240 240 240l0 0z"/></svg></a></div><div  style="display:inline-block;"><a href="https://5cdd3aa5c46ea.t73.qifeiye.com/?page_id=6554" style="font-size:14px;" rel="nofollow"><svg style="width:28px;height:24px;position:relative;top:1px;"  xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024" version="1.1" onmouseover="this.getElementsByClassName('svgpath')[0].style.fill=''" onmouseout="this.getElementsByClassName('svgpath')[0].style.fill=''" ><path class="svgpath" fill="" d="M770.858667 576.597333c-9.258667-7.253333-22.442667-5.418667-29.525334 4.096s-5.333333 22.997333 3.925334 30.250667c90.538667 70.912 144.725333 176.256 150.698666 291.669333H128.085333C139.050667 695.466667 307.029333 530.261333 512 530.261333c117.845333 0 213.674667-98.176 213.674667-218.922666 0-120.661333-95.829333-218.922667-213.674667-218.922667-117.802667 0-213.632 98.261333-213.632 218.922667a218.88 218.88 0 0 0 108.885333 189.568C222.592 548.992 85.333333 720.256 85.333333 924.16v21.589333h853.333334v-21.589333c0-137.344-61.184-263.978667-167.808-347.562667zM340.48 311.338667c0-96.896 76.970667-175.744 171.52-175.744 94.592 0 171.562667 78.848 171.562667 175.744S606.592 487.082667 512 487.082667c-94.549333 0-171.52-78.848-171.52-175.744z"/></svg></a></div>
+<div class="shopping-cart bitcommerce e_mouse" id="shopping-cart-bitcommerce" style="position:relative;">
+<a class="wc-ico-cart" data-num="0" style="font-size:14px;margin-left:10px;" href="https://5cdd3aa5c46ea.t73.qifeiye.com/?page_id=11073">
+<svg xmlns="http://www.w3.org/2000/svg" 
+                class="icon" 
+                onmouseover="this.getElementsByClassName('svgpath')[0].style.fill=''" 
+                onmouseout="this.getElementsByClassName('svgpath')[0].style.fill=''" 
+                style="width:28px;height:28px;position:relative;top:4px;" viewBox="0 0 1025 1024" version="1.1">
+                <path class="svgpath" fill="" 
+                d="M790.439 661.909h-394.194c-37.37 0-46.666-20.51-48.927-32.763l-3.911-21.551c-40.409-226.818-63.44-352.916-68.567-374.815-4.432-17.381-11.819-23.638-17.12-23.638h-77.952c-8.516 0-15.382-6.953-15.382-15.469s6.865-15.381 15.382-15.381h77.952c8.168 0 35.804 3.389 47.102 47.102 7.995 34.066 53.88 291.997 69.001 376.727l3.824 21.465c0.348 1.998 1.39 7.474 18.597 7.474h394.282c8.516 0 15.382 6.865 15.382 15.382 0 8.603-6.953 15.469-15.469 15.469v0zM745.511 537.116h-398.453c-8.516 0-15.382-6.865-15.382-15.382s6.865-15.382 15.382-15.382h398.366c27.461 0 33.023-21.378 33.197-22.335 1.651-6.17 38.845-144.868 49.013-179.37 1.217-4.085 2.172-9.56 0-12.948-2.259-3.476-7.647-5.041-10.168-5.562h-519.335c-8.516 0-15.382-6.865-15.382-15.382s6.865-15.382 15.382-15.382h520.64c0.521 0 1.043 0 1.651 0.087 2.259 0.261 22.073 2.781 33.023 19.118 4.867 7.299 9.56 19.988 3.998 38.932-10.168 34.153-48.319 176.761-48.753 178.239-3.91 15.381-22.073 45.364-63.178 45.364v0zM428.052 832.414c-35.283 0-64.048-28.679-64.048-64.048s28.765-64.048 64.048-64.048c35.283 0 63.961 28.679 63.961 64.048s-28.679 64.048-63.961 64.048v0zM428.052 735.255c-18.337 0-33.197 14.86-33.197 33.197s14.86 33.197 33.197 33.197c18.249 0 33.11-14.861 33.11-33.197s-14.86-33.197-33.11-33.197v0zM715.442 832.414c-35.283 0-64.047-28.679-64.047-64.048s28.765-64.048 64.047-64.048c35.283 0 64.048 28.679 64.048 64.048s-28.765 64.048-64.048 64.048v0zM715.442 735.255c-18.249 0-33.197 14.86-33.197 33.197s14.861 33.197 33.197 33.197c18.249 0 33.197-14.861 33.197-33.197s-14.947-33.197-33.197-33.197v0zM715.442 735.255z"/></svg></a>
+
+    				</td>
+    				</tr>
+    				</table>
+    			</div>
+			</div>
+
+					</div>
+			</div>
+
+
+</div>
+</div>                        </div>
+					</div>
+			</div><!-- #branding -->
+		</div><!-- .wf-wrap -->
+	</header><!-- #masthead -->
+
+ <section class="bitBanner" id="bitBanner" bitdatamarker="bitBanner" bitdataaction="site_fix_container" >
+	<div id="rev-slider-widget-2" style="" class="bitImageControlDiv bitBanner widget_revslider site_tooler"><!-- START REVOLUTION SLIDER 4.1.4 fullwidth mode -->
+			<style type='text/css' id="bit_revsider_style">
+								@media screen and (min-width: 768px) {#rev_slider_4_1_wrapper{
+                           height:950px;
+				  } }
+														#rev_slider_4_1_wrapper .tp-bullets.new1 .bullet{
+							border-color: transparent;
+							background:#ffffff;
+							margin-left:10px;
+						}
+						#rev_slider_4_1_wrapper .tp-bullets.new1 .bullet.last{
+							margin-right:10px;
+						}
+						#rev_slider_4_1_wrapper .tp-bullets.new1.simplebullets  .bullet.selected {
+							background: #85bf41;
+							border-color: transparent;
+						}
+													#rev_slider_4_1_wrapper .tp-bullets.new1 .bullet{width:44px;height:4px;}
+														@media screen and (max-width: 768px) {#rev_slider_4_1_wrapper .tp-bullets{display:none !important;}#rev_slider_4_1_wrapper .tparrows{display:none !important;}#rev_slider_4_1_wrapper .tp-bullets.new1 .bullet{width:22px;}}							</style>
+		
+<div id="rev_slider_4_1_wrapper" bitDataAction="site_slider_container"  bitDataLocation="4" biDataNonce="0cb28a4282" class="rev_slider_wrapper   fullwidthbanner-container" style="margin:0px auto;background-color:#e9e9e9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:950px;">
+	<div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;max-height:950px;height:950;">
+<ul data-height="950" data-mobileheight="153">	<!-- SLIDE  -->
+	<li class="bitSliderLi" data-slideId="18" data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="https://img.dpm.org.cn/Uploads/Picture/2022/04/21/s6260caa44ec88.jpg"  alt="1-1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li class="bitSliderLi" data-slideId="20" data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
+		<!-- MAIN IMAGE -->
+		<img src="https://img.dpm.org.cn/Uploads/Picture/2022/04/21/s6260c3fe4c83a.jpg"  alt="首页"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+</ul>
+	</div>
+</div>
+			<script type="text/javascript" id="bit_revsider" data-sliderID="4" >
+			var revapi4_param ={
+							hideTimerBar:"on",
+							simplifyAll:"on",
+							dottedOverlay:"none",
+							delay:9000,
+							startwidth:1903,
+							startheight:950,
+							hideThumbs:0,
+
+							thumbWidth:100,
+							thumbHeight:50,
+							thumbAmount:2,
+
+							navigationType:"bullet",
+							navigationArrows:"none",
+							navigationStyle:"new1",
+														touchenabled:"on",
+														onHoverStop:"on",
+
+							navigationHAlign:"center",
+							navigationVAlign:"bottom",
+							navigationHOffset:0,
+							navigationVOffset:20,
+
+							soloArrowLeftHalign:"left",
+							soloArrowLeftValign:"center",
+							soloArrowLeftHOffset:20,
+							soloArrowLeftVOffset:0,
+
+							soloArrowRightHalign:"right",
+							soloArrowRightValign:"center",
+							soloArrowRightHOffset:20,
+							soloArrowRightVOffset:0,
+
+							navigation_arrows_style:'default',
+
+							shadow:0,
+							fullWidth:"on",
+							fullScreen:"off",
+
+							stopLoop:"off",
+							stopAfterLoops:-1,
+							stopAtSlide:-1,
+
+
+							shuffle:"off",
+
+							autoHeight:"on",
+							forceFullWidth:"off",
+							
+							
+							hideThumbsOnMobile:"off",
+							hideBulletsOnMobile:"off",
+							hideArrowsOnMobile:"off",
+							hideThumbsUnderResolution:0,
+
+							hideSliderAtLimit:0,
+							hideCaptionAtLimit:0,
+							hideAllCaptionAtLilmit:0,
+							startWithSlide:0,
+							videoJsPath:"https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/revslider/rs-plugin/videojs/",
+							fullScreenOffsetContainer: ""
+						}
+			</script>
+			<script type="text/javascript" >
+				var revapi4;
+
+				function run_revApi(){
+                    var tpj=jQuery;
+                    tpj.noConflict();					if(tpj('#rev_slider_4_1').revolution == undefined)
+						revslider_showDoubleJqueryError('#rev_slider_4_1');
+					else{
+
+					   revapi4 = tpj('#rev_slider_4_1').show().revolution(revapi4_param);
+					}
+				}
+				
+			</script>
+
+			<!-- END REVOLUTION SLIDER --></div></section>
+<div id="main" class="bit_main_content">
+
+
+		<div class="main-gradient"></div>
+
+		<div class="wf-wrap">
+			<div class="wf-container-main">
+
+				
+
+			
+
+			<div id="content" class="content" role="main">
+
+								
+<div class="main-outer-wrapper ">
+        <div class="bit_row">
+
+                
+                <div class="twelve columns no-sidebar-content ">
+                
+                    <div class="bit_row">
+                    
+                            <div class="content-wrapper twelve columns ">
+                              <section  data-fixheight="" class="qfy-row-1-633d7ae6eb2f727269 section     no  section-text-no-shadow section-inner-no-shadow section-normal section-orgi"  id="bit_bvdyz"  style='margin-bottom:0;border-radius:0px;color:#666666;' >
+    <style class="row_class qfy_style_class">
+        @media only screen and (min-width: 992px){
+        section.section.qfy-row-1-633d7ae6eb2f727269{padding-left:0;padding-right:0;padding-top:10vh;padding-bottom:10vh;margin-top:0;margin-bottom:0;}section.section.qfy-row-1-633d7ae6eb2f727269 > .container{max-width:1400px;margin:0 auto;}}
+        
+        @media only screen and (max-width: 992px){
+        .bit-html section.section.qfy-row-1-633d7ae6eb2f727269{padding-left:15px;padding-right:15px;padding-top:20px;padding-bottom:20px;margin-top:0;margin-bottom: !important;min-height:0;}}
+            </style>
+        
+
+            <div  class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #f7f7f7;"></div>
+        <div class="container">
+        <div class="row qfe_row  ">
+            <div   data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp"  data-duration="1" data-delay=""  class=" qfy-column-1-633d7ae6eb37e611973 qfy-column-inner  vc_span12  text-Default small-screen-Default fullrow"  data-dw="1/1" data-fixheight="" ><div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:40px;border-radius:0px;;position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-0" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div id="vc_header_633d7ae6eb412369"  m-padding="0 0 0 11px"  p-padding="10px 15px 19px 0" css_animation_delay="0" qfyuuid="qfy_header_l15tz-c-p3" data-anitime='0.7' data-ani_iteration_count='1'  class="qfy-element minheigh1px qfe_text_column qfe_content_element " style="position: relative;;;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:10px;padding-bottom:19px;padding-right:15px;padding-left:0;"><style>@media only screen and (max-width: 768px) {#vc_header_633d7ae6eb412369 .header_title{font-size:22px !important;}}@media only screen and (max-width: 768px) {#vc_header_633d7ae6eb412369 .header_subtitle{font-size:13px !important;}}</style>
+		<div class="qfe_wrapper">
+			<div class="qfy_title center mobilecenter"><div class="qfy_title_image_warpper" style="display:inline-block;position:relative;max-width:100%;"><div class="qfy_title_inner" style="display:inline-block;position:relative;max-width:100%;">
+			      <div class="header_title" style="font-family:微软雅黑;font-size:32px;font-weight:normal;font-style:normal;color:#232323;padding:0 0 5px 0;display:block;padding:0 0 5px 0;vertical-align:bottom;">遇见缪斯·北京</div>
+			      <div class="header_subtitle" style="font-size:18px;font-weight:normal;font-style:normal;color:#999999;display:block;vertical-align:bottom;">MetaMuse | Beijing</div></div><style></style><div class="button_wrapper" style="display:none;"><div class="button " style="display:inline-block;max-width:100%;text-align:center; font-size:14px; color:#333; padding:5px;">+ 查看更多</div></div><span  style="clear:both;"></span></div></div>
+		</div> 
+	</div> <div id=""   data-loading="" data-loading-w=""  data-open="0" data-post="product" data-cate="0"   m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_posts_grid_kqom7-c-mo"   class="qfy-element  UUID-POSTS-633d7ae6ed37e934868 qfe_teaser_grid qfe_content_element  qfe_grid columns_count_3 columns_count_3 qfe_teaser_grid_product  " style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+<style>.UUID-POSTS-633d7ae6ed37e934868 li:hover .post-title > i.glyphicon{color:#cccccc !important;}.UUID-POSTS-633d7ae6ed37e934868 li:hover .post-title > a,.UUID-POSTS-633d7ae6ed37e934868 li:hover .post-title >div> a,.UUID-POSTS-633d7ae6ed37e934868 li:hover .post-title > span{color:#519f10 !important;}.UUID-POSTS-633d7ae6ed37e934868 li:hover .post-title > span.toEditor{color:#fff !important;}.UUID-POSTS-633d7ae6ed37e934868 li:hover .subtitle{color:#cccccc !important;}.UUID-POSTS-633d7ae6ed37e934868 li .post_excerpt{width:100% !important;text-align:left}.UUID-POSTS-633d7ae6ed37e934868 li .vc_read_more{display:inline-block;float:none;}.UUID-POSTS-633d7ae6ed37e934868 li .vc_read_more_wrapper{width:100% !important;text-align:left}.UUID-POSTS-633d7ae6ed37e934868 li .price_warp{width:100% !important;text-align:center !important}.UUID-POSTS-633d7ae6ed37e934868 li:hover .post-title::before {
+        width: 100%;
+	    transition: all .6s ease 0s;
+    }.UUID-POSTS-633d7ae6ed37e934868 li       .post-title::before {
+        position: absolute;
+        content: '';
+        width: 0;
+        height: 1px;
+        background-color: #519f10;
+        left: 0px;
+        bottom: -1px;
+        margin: 0;
+        transition: all .6s ease 0s;
+    }.UUID-POSTS-633d7ae6ed37e934868 li:hover .itembody{border-color:transparent !important;}.UUID-POSTS-633d7ae6ed37e934868 li .vc_read_more{
+        border-width:1px;
+        border-style:solid;border-color:#d8d8d8;background-color:transparent;}.UUID-POSTS-633d7ae6ed37e934868 li:hover .vc_read_more{border-color:#519f10;background-color:transparent;}.UUID-POSTS-633d7ae6ed37e934868 li:hover .vc_read_more{color:#519f10 !important;}.UUID-POSTS-633d7ae6ed37e934868 li .itempcbody{margin:0 20px 0 20px;}@media only screen and (max-width: 992px) {.UUID-POSTS-633d7ae6ed37e934868 .vc_span_mobile{float:left !important;max-width: 99.8% !important;}.UUID-POSTS-633d7ae6ed37e934868 .post_blog  .vc_span_mobile .blog-media{width:auto !important;}.thumbnail_text-633d7ae6ed37d867 .head{font-size: 16px !important;}.thumbnail_text-633d7ae6ed37d867 .content{font-size: 16px !important;}}.UUID-POSTS-633d7ae6ed37e934868 .qfy_item_post .price_warp .amount,.UUID-POSTS-633d7ae6ed37e934868 .qfy_item_post .price_warp del{color:#555555;font-size:16px;font-family:sans-serif;}.UUID-POSTS-633d7ae6ed37e934868 .qfy_item_post .price_warp ins .amount{color:#555555;font-size:16px;font-family:sans-serif;}.UUID-POSTS-633d7ae6ed37e934868 .qfy_item_post .price_warp {padding-top:10px;padding-bottom:15px;padding-left:0px;padding-right:0px;}.UUID-POSTS-633d7ae6ed37e934868 .qfy_item_post:hover .price_warp .amount,.UUID-POSTS-633d7ae6ed37e934868 .qfy_item_post:hover .price_warp del{color:#555555 !important;}.UUID-POSTS-633d7ae6ed37e934868 .qfy_item_post:hover .price_warp ins .amount{color:#555555 !important;}.UUID-POSTS-633d7ae6ed37e934868 li .post-title{border-width:0 0 1px 0;border-style:solid;border-color:#ededed;}.UUID-POSTS-633d7ae6ed37e934868 li:hover{transition: all .6s ease;}.UUID-POSTS-633d7ae6ed37e934868 li{transition: all .6s ease;}</style>	<style class='style_UUID-POSTS-633d7ae6ed37e934868'>.UUID-POSTS-633d7ae6ed37e934868 .qfe_heading{padding:0 0 0 10px;height:28px;line-height:28px;background-color:transparent;margin:0px;font-family:;font-size:px;font-weight:normal;font-style:normal;text-decoration:none;color:#ffffff;border-top:1px solid transparent;border-left:1px solid transparent;border-right:1px solid transparent;border-bottom:0px solid transparent;background-image:none;-webkit-border-top-left-radius: 4px;-webkit-border-top-right-radius: 4px;-moz-border-radius-topleft: 4px;-moz-border-radius-topright: 4px;border-top-left-radius: 4px;border-top-right-radius: 4px;} .UUID-POSTS-633d7ae6ed37e934868 .qfe_heading{border-top:0;border-left:0;border-right:0;} .UUID-POSTS-633d7ae6ed37e934868  .teaser_grid_container,.UUID-POSTS-633d7ae6ed37e934868 .vc-carousel{border-bottom:0;border-top:0;border-left:0;border-right:0;padding:10px 10px 4px 10px;}.UUID-POSTS-633d7ae6ed37e934868{-webkit-box-shadow:none;box-shadow:none;}.post-title .glyphicon{  left:0px;  }  #UUID-POSTS-633d7ae6ed37e934868 .bitWidgetFrame{background-color:transparent;background-image:none;-webkit-border-bottom-left-radius: 4px;border-bottom-left-radius: 4px;-webkit-border-bottom-right-radius: 4px;border-bottom-right-radius: 4px;}.UUID-POSTS-633d7ae6ed37e934868  .teaser_grid_container,.UUID-POSTS-633d7ae6ed37e934868 .vc-carousel{padding-left:0px;padding-right:0px;}body .UUID-POSTS-633d7ae6ed37e934868  .teaser_grid_container,.UUID-POSTS-633d7ae6ed37e934868 .vc-carousel{padding-top:0px !important;padding-bottom:0px !important;}</style>    <div class="qfe_wrapper">
+                <div class="teaser_grid_container noanimale" style=';clear:both;' data-type="product"  data-cate=" " data-pcate="">
+                        <ul style="min-height:60px;" class="qfe_thumbnails qfe_thumbnails-fluid vc_clearfix  post_grid " data-layout-mode="fitRows" >
+                                                                                <li data-postid="11465" data-animaleinbegin="90%"  data-animalename="qfyfadeInUp" data-delay="0.1" data-duration=""   class="  qfyanimate isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-24 grid-cat-59 " style='max-width:33.27%;margin-bottom:0px;padding-bottom:0px;border-bottom:1px solid transparent;padding:15px;' >
+									<div class='itembody  itempcbody ' style="border-top:0px solid rgba(221,221,221,1);border-bottom:0px solid rgba(221,221,221,1);border-left:0px solid rgba(221,221,221,1);border-right:0px solid rgba(221,221,221,1);background-color:transparent;">
+	                    	                        
+
+
+				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:middle;' >
+		<a href="https://arcg.is/0a1vre" class="bitImageAhover  grow-slow link_image" title="北京艺术机构"><img data-t-id='11431' style='' class=" ag_image" src="https://i.postimg.cc/bNc5dPGv/logo1.png" border='0' alt='logo-1' description="" data-attach-id="11431"   data-title="shop (10)" title="" src-img ="" /><i></i></a>	</div>
+	                    	                        
+
+	
+		<div class="post-title"  style='padding-bottom:15px;font-weight:normal;color:#555555;line-height:16px; vertical-align: top; text-align:center;width:100%; '>
+
+	<a data-title="true" style="color:#555555;font-size:18px;line-height:22px" href="https://arcg.is/0a1vre" class="bitImageAhover   link_title" title="北京艺术机构">遇·艺术机构</a>
+
+	</div>
+
+
+	                    	                        
+
+	                    	                        
+
+	                    	                        
+
+
+
+
+				                </li>                                                 <li data-postid="11463" data-animaleinbegin="90%"  data-animalename="qfyfadeInUp" data-delay="0.2" data-duration=""   class="  qfyanimate isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-24 grid-cat-60 " style='max-width:33.27%;margin-bottom:0px;padding-bottom:0px;border-bottom:1px solid transparent;padding:15px;' >
+									<div class='itembody  itempcbody ' style="border-top:0px solid rgba(221,221,221,1);border-bottom:0px solid rgba(221,221,221,1);border-left:0px solid rgba(221,221,221,1);border-right:0px solid rgba(221,221,221,1);background-color:transparent;">
+	                    	                        
+
+
+				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:middle;' >
+		<a href="https://arcg.is/0Kj8va1" class="bitImageAhover  grow-slow link_image" title="线上艺术展览"><img data-t-id='11432' style='' class=" ag_image" src="https://i.postimg.cc/pdTG3XSs/logo2.png" border="0" alt="logo-2" description="" data-attach-id="11432"   data-title="shop (11)" title="" src-img ="" /><i></i></a>	</div>
+	                    	                        
+
+	
+		<div class="post-title"  style='padding-bottom:15px;font-weight:normal;color:#555555;line-height:16px; vertical-align: top; text-align:center;width:100%; '>
+
+	<a data-title="true" style="color:#555555;font-size:18px;line-height:22px" href="https://arcg.is/0Kj8va1" class="bitImageAhover   link_title" title="线上艺术展览">见·线上展览</a>
+
+	</div>
+
+
+	                    	                        
+
+	                    	                        
+
+	                    	                        
+
+
+
+
+				                </li>                                                 <li data-postid="11461" data-animaleinbegin="90%"  data-animalename="qfyfadeInUp" data-delay="0.3" data-duration=""   class="  qfyanimate isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-24 grid-cat-60 " style='max-width:33.27%;margin-bottom:0px;padding-bottom:0px;border-bottom:1px solid transparent;padding:15px;' >
+								  <div class='itembody  itempcbody ' style="border-top:0px solid rgba(221,221,221,1);border-bottom:0px solid rgba(221,221,221,1);border-left:0px solid rgba(221,221,221,1);border-right:0px solid rgba(221,221,221,1);background-color:transparent;">
+	                    	                        
+
+
+				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:middle;' >
+		<a href="https://storymaps.arcgis.com/stories/77f3986df1374c55a211563877e32488" class="bitImageAhover  grow-slow link_image" title="艺术活动地图"><img data-t-id='11434' style='' class=" ag_image" src="https://i.postimg.cc/7ZPmTZqq/logo3.png" border="0" alt="logo-3" description="" data-attach-id="11434"   data-title="shop (13)" title="" src-img ="" /><i></i></a>	</div>
+	                    	                        
+
+	
+		<div class="post-title"  style='padding-bottom:15px;font-weight:normal;color:#555555;line-height:16px; vertical-align: top; text-align:center;width:100%; '>
+
+	<a data-title="true" style="color:#555555;font-size:18px;line-height:22px" href="https://9m2u6d.csb.app/map.html" class="bitImageAhover   link_title" title="艺术活动地图">缪斯·索引地图</a>
+
+	</div>
+									</div>
+
+	                    	                        
+
+               					 
+
+				                </li> <div class="wf-mobile-hidden" style="clear:both"></div>                                                <li data-postid="11459" data-animaleinbegin="90%"  data-animalename="qfyfadeInUp" data-delay="0.4" data-duration=""   class="  qfyanimate isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-24 grid-cat-62 " style='max-width:33.27%;margin-bottom:0px;padding-bottom:0px;border-bottom:1px solid transparent;padding:15px;' >
+									<div class='itembody  itempcbody ' style="border-top:0px solid rgba(221,221,221,1);border-bottom:0px solid rgba(221,221,221,1);border-left:0px solid rgba(221,221,221,1);border-right:0px solid rgba(221,221,221,1);background-color:transparent;">
+	                    	                        
+
+
+				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:middle;' >
+		<a href="https://storymaps.arcgis.com/stories/70e7f88f54ce49999b0db98fbe5f0b91" class="bitImageAhover  grow-slow link_image" title="团队介绍"><img data-t-id='11430' style='' class=" ag_image" src="https://i.postimg.cc/wvDhGC9W/logo5.png" border="0" alt="logo-4" description="" data-attach-id="11430"   data-title="shop (9)" title="" src-img ="" /><i></i></a>	</div>
+	                    	                        
+
+	
+		<div class="post-title"  style='padding-bottom:15px;font-weight:normal;color:#555555;line-height:16px; vertical-align: top; text-align:center;width:100%; '>
+
+	<a data-title="true" style="color:#555555;font-size:18px;line-height:22px" href="https://storymaps.arcgis.com/stories/70e7f88f54ce49999b0db98fbe5f0b91" class="bitImageAhover   link_title" title="团队介绍">团队介绍</a>
+
+	</div>
+
+
+	                    	                        
+
+	                    	                        
+
+	                    	                        
+
+	 <div class="price_warp ellipsis  " >
+	  	<span class="amount"></span>	  </div>
+	                    	                        
+
+               					  </div>
+
+
+				                </li>                                                 <li data-postid="11457" data-animaleinbegin="90%"  data-animalename="qfyfadeInUp" data-delay="0.5" data-duration=""   class="  qfyanimate isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-24 grid-cat-62 " style='max-width:33.27%;margin-bottom:0px;padding-bottom:0px;border-bottom:1px solid transparent;padding:15px;' >
+									<div class='itembody  itempcbody ' style="border-top:0px solid rgba(221,221,221,1);border-bottom:0px solid rgba(221,221,221,1);border-left:0px solid rgba(221,221,221,1);border-right:0px solid rgba(221,221,221,1);background-color:transparent;">
+	                    	                        
+
+
+				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:middle;' >
+		<a href="https://arcg.is/1ay0K1" class="bitImageAhover  grow-slow link_image" title="项目介绍"><img data-t-id='11429' style='' class=" ag_image" src="https://i.postimg.cc/J4xQmCZv/logo4.png" border="0" alt="logo-5" description="" data-attach-id="11429"   data-title="shop (8)" title="" src-img ="" /><i></i></a>	</div>
+	                    	                        
+
+	
+		<div class="post-title"  style='padding-bottom:15px;font-weight:normal;color:#555555;line-height:16px; vertical-align: top; text-align:center;width:100%; '>
+
+	<a data-title="true" style="color:#555555;font-size:18px;line-height:22px" href="https://arcg.is/1ay0K1" class="bitImageAhover   link_title" title="项目介绍">项目介绍</a>
+
+	</div>
+
+
+	                    	                        
+
+	                    	                        
+
+	                    	                        
+
+	 <div class="price_warp ellipsis  " >
+	  	<span class="amount"></span>	  </div>
+	                    	                        
+
+               					  </div>
+
+
+				                </li>                                                 <li data-postid="11446" data-animaleinbegin="90%"  data-animalename="qfyfadeInUp" data-delay="0.6" data-duration=""   class="  qfyanimate isotope-item qfy_item_post vc_span4 vc_span_mobile vc_span_mobile12 grid-cat-24 grid-cat-61 " style='max-width:33.27%;margin-bottom:0px;padding-bottom:0px;border-bottom:1px solid transparent;padding:15px;' >
+									<div class='itembody  itempcbody ' style="border-top:0px solid rgba(221,221,221,1);border-bottom:0px solid rgba(221,221,221,1);border-left:0px solid rgba(221,221,221,1);border-right:0px solid rgba(221,221,221,1);background-color:transparent;">
+	                    	                        
+
+
+				<div class="post-thumb blog-media wf-td" style='overflow:hidden;display:block;width: 100%;text-align: center;padding-bottom:10px;vertical-align:middle;' >
+		<a href="https://storymaps.arcgis.com/stories/6bb705d0993844159b82ced5c028b182" class="bitImageAhover  grow-slow link_image" title="联系我们"><img data-t-id='11428' style='' class=" ag_image" src="https://i.postimg.cc/sxc5V5Q7/logo6.png" border="0" alt="logo-6" description="" data-attach-id="11428"   data-title="shop (7)" title="" src-img ="" /><i></i></a>	</div>
+	                    	                        
+
+	
+		<div class="post-title"  style='padding-bottom:15px;font-weight:normal;color:#555555;line-height:16px; vertical-align: top; text-align:center;width:100%; '>
+
+	<a data-title="true" style="color:#555555;font-size:18px;line-height:22px" href="https://storymaps.arcgis.com/stories/6bb705d0993844159b82ced5c028b182" class="bitImageAhover   link_title" title="联系我们">联系我们</a>
+
+	</div>
+
+
+	                    	                        
+
+	                    	                        
+
+	                    	                        
+
+	 <div class="price_warp ellipsis  " >
+	  	<span class="amount"></span>	  </div>
+	                    	                        
+
+               					  </div>
+
+
+				                </li> <div class="wf-mobile-hidden" style="clear:both"></div>                
+             	                
+            </ul>
+
+        </div>
+    </div>     <div class="clear"></div>
+
+    
+</div> 
+
+
+</section><section  data-fixheight="" class="qfy-row-2-633d7ae6ee203897347 section     no  section-text-no-shadow section-inner-no-shadow section-normal section-orgi"  id="bit_44522"  style='margin-bottom:0;border-radius:0px;color:#808080;' >
+    <style class="row_class qfy_style_class">
+        @media only screen and (min-width: 992px){
+        section.section.qfy-row-2-633d7ae6ee203897347{padding-left:0;padding-right:0;padding-top:15vh;padding-bottom:8vh;margin-top:0;margin-bottom:0;}section.section.qfy-row-2-633d7ae6ee203897347 > .container{max-width:1280px;margin:0 auto;}}
+        
+        @media only screen and (max-width: 992px){
+        .bit-html section.section.qfy-row-2-633d7ae6ee203897347{padding-left:15px;padding-right:15px;padding-top:40px;padding-bottom:40px;margin-top:0;margin-bottom: !important;min-height:0;}}
+            </style>
+                <div  data-time="3" data-imagebgs="" class="background-media   " backgroundSize='true'  style="background-image: url('https://img.dpm.org.cn/Uploads/Picture/2019/04/04/s5ca56faf7987d.jpg'); background-repeat:no-repeat; background-size:cover; background-attachment:fixed; background-position:center center;" >
+                                </div>
+
+    
+
+            <div  class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: transparent;"></div>
+        <div class="container">
+        <div class="row qfe_row  ">
+            <div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="1" data-delay=""  class=" qfy-column-2-633d7ae6ee40c384063 qfy-column-inner  vc_span12  text-Default small-screen-undefined fullrow"  data-dw="1/1" data-fixheight="" ><div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;;position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-0" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div id="vc_header_633d7ae6ee47d780"  m-padding="0 0 0 11px"  p-padding="10px 15px 0 0" css_animation_delay="0" qfyuuid="qfy_header_94s33" data-anitime='0.7' data-ani_iteration_count='1'  class="qfy-element minheigh1px qfe_text_column qfe_content_element " style="position: relative;;;background-repeat: no-repeat;;margin-top:0;margin-bottom:40px;padding-top:10px;padding-bottom:0;padding-right:15px;padding-left:0;"><style>@media only screen and (max-width: 768px) {#vc_header_633d7ae6ee47d780 .header_title{font-size:22px !important;}}@media only screen and (max-width: 768px) {#vc_header_633d7ae6ee47d780 .header_subtitle{font-size:13px !important;}}</style>
+		<div class="qfe_wrapper">
+			<H2 class="qfy_title center mobilecenter"><div class="qfy_title_image_warpper" style="display:inline-block;position:relative;max-width:100%;"><div class="qfy_title_inner" style="display:inline-block;position:relative;max-width:100%;"><div class="header_title" style="font-family:微软雅黑;font-size:26px;font-weight:normal;font-style:normal;color:#ffffff;padding:0 0 5px 0;display:block;padding:0 0 5px 0;vertical-align:bottom;">关于我们</div><div class="header_subtitle" style="font-size:13px;font-weight:normal;font-style:normal;color:#ffffff;display:block;vertical-align:bottom;">About</div></div><style></style><div class="button_wrapper" style="display:none;"><div class="button " style="display:inline-block;max-width:100%;text-align:center; font-size:14px; color:#333; padding:5px;">+ 查看更多</div></div><span  style="clear:both;"></span></div></H2>
+		</div> 
+	</div> <section  data-fixheight="" class="qfy-row-3-633d7ae6ee4f1243096 section     bothfull  section-text-no-shadow section-inner-no-shadow section-normal section-orgi"   style='margin-bottom:0;border-radius:0px;border-top:10px solid rgba(255,255,255,1);border-bottom:10px solid rgba(255,255,255,1);border-left:10px solid rgba(255,255,255,1);border-right:10px solid rgba(255,255,255,1);color:#808080;' >
+    <style class="row_class qfy_style_class">
+        @media only screen and (min-width: 992px){
+        section.section.qfy-row-3-633d7ae6ee4f1243096{padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;}}
+        
+        @media only screen and (max-width: 992px){
+        .bit-html section.section.qfy-row-3-633d7ae6ee4f1243096{padding-left:15px;padding-right:15px;padding-top:0;padding-bottom:0;margin-top:0;margin-bottom: !important;min-height:0;}}
+            </style>
+        
+
+            <div  class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #ffffff;"></div>
+        <div class="container">
+        <div class="row qfe_row  ">
+            <div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="" data-delay=""  class=" qfy-column-3-633d7ae6ee529111568 qfy-column-inner  vc_span_class  vc_span6  text-default small-screen-default notfullrow"  data-dw="1/2" data-fixheight="" ><div style=";position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div id="vc_img_633d7ae6ee797272" style="padding:0px;margin:0px;clear:both;position:relative;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-position:0 0;background-repeat: no-repeat;"     m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_single_image_yhgoi" data-anitime='0.7' data-ani_iteration_count='1'  class="qfy-element bitImageControlDiv " ><style>@media only screen and (max-width: 768px) {.single_image_text-633d7ae6ee7aa159 .head{font-size: 16px !important;}.single_image_text-633d7ae6ee7aa159 .content{font-size: 16px !important;}}</style><a class="bitImageAhover  " >
+	<div class="bitImageParentDiv qfe_single_image qfe_content_element vc_align_center">
+		<div class="qfe_wrapper"><span></span><img class="front_image   ag_image" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/16/1445008235696/021a1289-6120-41cc-99c8-8e5dac6595b4-2060x1236.jpeg?width=620&quality=45&dpr=2&s=none" alt="about" description="" data-attach-id="11758"   data-title="about" title="" src-img ="" style='' /></div> 
+	</div> 
+	</div> </a></div></div></div><style class="column_class qfy_style_class">.qfy-column-3-633d7ae6ee529111568 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-3-633d7ae6ee529111568 {width:44.57722689075631%;}}@media only screen and (max-width: 992px){.qfy-column-3-633d7ae6ee529111568 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .qfe_row .vc_span_class.qfy-column-3-633d7ae6ee529111568 {width:44.57722689075631%;}.qfy-column-3-633d7ae6ee529111568 > .column_inner> .background-overlay,.qfy-column-3-633d7ae6ee529111568 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="1" data-delay=""  class=" qfy-column-4-633d7ae6ee7ff839480 qfy-column-inner  vc_span_class  vc_span6  text-Default small-screen-Default notfullrow"  data-dw="1/2" data-fixheight="" ><div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;;position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-0" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_column_text_hhvdm" data-anitime='0.7' data-ani_iteration_count='1'  class="qfy-element qfy-text qfy-text-18726 qfe_text_column qfe_content_element  mobile_fontsize " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;border-radius:0px;" >
+		<div class="qfe_wrapper ">
+			<div style="line-height: 28px;">
+			  <p style="font-size: 14px;">“遇见缪斯（MetaMuse）”为数字人文类众包项目，采取“团队-机构-用户”合作制，旨在构建北京市艺术资源数据库,并基于数据库与交互式地图,为用户提供艺术活动检索服务。项目主要包含：艺术机构合集、
+线上展览合集、索引地图应用三大模块功能。</p>
+			  <p style="font-size: 14px;">项目团队成员均为中国人民大学数字人文研究中心学生研究员，该项目为其应用数字人文与艺术跨学科理论实践的成果之一。</p>
+			</div>
+		</div> 
+	</div> 
+<a onmouseleave="this.style.borderColor='#90af6b'; this.style.backgroundColor='#90af6b'; this.style.color='#fff';" onmouseenter="this.style.backgroundColor='#90af6b'; this.style.borderColor='#90af6b'; this.style.color='#fff';" style="font-size:14px; padding-left:25px;padding-right:25px; padding-top:8px;padding-bottom:8px; border-width:2px; border-color:#90af6b; background-color:#90af6b; color:#fff;" class="vc_general vc_btn3 vc_btn3-size-sm vc_btn3-shape-square vc_btn3-style-qfy-custom" href="https://storymaps.arcgis.com/stories/70e7f88f54ce49999b0db98fbe5f0b91" target="">了解更多</a></div>
+</div></div></div><style class="column_class qfy_style_class">.qfy-column-4-633d7ae6ee7ff839480 > .column_inner {padding-left:50px;padding-right:50px;padding-top:50px;padding-bottom:50px;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-4-633d7ae6ee7ff839480 {width:55.4%;}}@media only screen and (max-width: 992px){.qfy-column-4-633d7ae6ee7ff839480 > .column_inner{margin:0 auto 0 !important;min-height:0 !important;padding-left:20px;padding-right:20px;padding-top:20px;padding-bottom:20px;}.display_entire .qfe_row .vc_span_class.qfy-column-4-633d7ae6ee7ff839480 {width:55.4%;}.qfy-column-4-633d7ae6ee7ff839480 > .column_inner> .background-overlay,.qfy-column-4-633d7ae6ee7ff839480 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div class="wf-mobile-hidden qfy-clumn-clear" style="clear:both;"></div>        </div>
+    </div>
+
+</section></div></div></div><style class="column_class qfy_style_class">.qfy-column-2-633d7ae6ee40c384063 > .column_inner {padding-left:0;padding-right:0;padding-top:60px;padding-bottom:60px;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-2-633d7ae6ee40c384063 {}}@media only screen and (max-width: 992px){.qfy-column-2-633d7ae6ee40c384063 > .column_inner{margin:0 auto 0 !important;min-height:0 !important;padding-left:0;padding-right:0;padding-top:40px;padding-bottom:40px;}.display_entire .qfe_row .vc_span_class.qfy-column-2-633d7ae6ee40c384063 {}.qfy-column-2-633d7ae6ee40c384063 > .column_inner> .background-overlay,.qfy-column-2-633d7ae6ee40c384063 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
+    </div>
+
+</section><section  data-fixheight="" class="qfy-row-4-633d7ae6eeb08252199 section     no  section-text-no-shadow section-inner-no-shadow section-normal section-orgi"  id="bit_wk7ll"  style='margin-bottom:0;border-radius:0px;color:#808080;' >
+    <style class="row_class qfy_style_class">
+        @media only screen and (min-width: 992px){
+        section.section.qfy-row-4-633d7ae6eeb08252199{padding-left:0;padding-right:0;padding-top:50px;padding-bottom:50px;margin-top:0;margin-bottom:0;}section.section.qfy-row-4-633d7ae6eeb08252199 > .container{max-width:1280px;margin:0 auto;}}
+        
+        @media only screen and (max-width: 992px){
+        .bit-html section.section.qfy-row-4-633d7ae6eeb08252199{padding-left:15px;padding-right:15px;padding-top:40px;padding-bottom:50px;margin-top:0;margin-bottom: !important;min-height:0;}}
+            </style>
+        
+
+            <div  class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #ffffff;"></div>
+        <div class="container">
+        <div class="row qfe_row  ">
+            <div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="1" data-delay=""  class=" qfy-column-5-633d7ae6eeb57755985 qfy-column-inner  vc_span12  text-Default small-screen-center fullrow"  data-dw="1/1" data-fixheight="" ><div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;;position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-0" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+<div  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_images_list_exubh" data-anitime='0.7' data-ani_iteration_count='1'   class="qfy-element qfy_images_list qfe_content_element vc_clearfix" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+    <style>
+		@media screen and (max-width: 992px) {
+	#vc_images_list-633d7ae6eede1336 .qfe_images_list .gimg{width:33.333333%;text-align: center;}
+	#vc_images_list-633d7ae6eede1336 .mobileclear{clear:both;}
+		}
+			@media screen and (min-width: 992px) {
+	#vc_images_list-633d7ae6eede1336 .qfe_images_list .gimg{width:16.666667%;}
+	#vc_images_list-633d7ae6eede1336 .pcclear{clear:both;}
+		}
+				</style>
+	<style>@media only screen and (max-width: 760px) {#vc_images_list-633d7ae6eede1336 .Thumbnail_text .head{font-size: 16px !important;}#vc_images_list-633d7ae6eede1336 .Thumbnail_text .content{font-size: 16px !important;}}</style>
+	<div class="qfe_wrapper"  id="vc_images_list-633d7ae6eede1336"  >
+        		        <div class="qfe_images_list" >
+								
+				<div class="pcclear"></div><div class="mobileclear"></div>								<div class="clear"></div>
+				
+        </div>
+
+        				    </div></div></div></div></div><style class="column_class qfy_style_class">.qfy-column-5-633d7ae6eeb57755985 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-5-633d7ae6eeb57755985 {}}@media only screen and (max-width: 992px){.qfy-column-5-633d7ae6eeb57755985 > .column_inner{margin:0 auto 0 !important;min-height:0 !important;padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}.display_entire .qfe_row .vc_span_class.qfy-column-5-633d7ae6eeb57755985 {}.qfy-column-5-633d7ae6eeb57755985 > .column_inner> .background-overlay,.qfy-column-5-633d7ae6eeb57755985 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
+    </div>
+
+</section>                             </div>
+                    
+
+                         <div class="clear"></div>
+                    </div>
+              </div>
+        </div><!-- END .page-wrapper -->
+         <div class="clear"></div>
+</div>
+<div class="clear"></div>
+
+			
+			</div>
+		
+    			</div><!-- .wf-container -->
+		</div><!-- .wf-wrap -->
+	</div><!-- #main -->
+	<footer id="footer" class="footer"  >
+	<div class="wf-wrap">
+		<div class="wf-container qfe_row footer1" bitDataAction='site_widget_container' bitdatamarker="sidebar_2" >
+			<section id="simplepage-2"  style="margin-top:0;margin-bottom:0;" class="widget simplepage site_tooler"><style class='style_simplepage-2'>#simplepage-2 .widget-title{padding:0 0 0 10px;height:28px;line-height:28px;background-color:transparent;margin:0px;font-family:;font-size:px;font-weight:normal;font-style:normal;text-decoration:none;color:#ffffff;border-top:1px solid transparent;border-left:1px solid transparent;border-right:1px solid transparent;border-bottom:0px solid transparent;background-image:none;-webkit-border-top-left-radius: 4px;-webkit-border-top-right-radius: 4px;-moz-border-radius-topleft: 4px;-moz-border-radius-topright: 4px;border-top-left-radius: 4px;border-top-right-radius: 4px;} #simplepage-2 .widget-title{border-top:0;border-left:0;border-right:0;} #simplepage-2 .bitWidgetFrame{border-bottom:0;border-top:0;border-left:0;border-right:0;padding:4px 10px 4px 10px;}#simplepage-2{-webkit-box-shadow:none;box-shadow:none;}#simplepage-2 .bitWidgetFrame{background-color:transparent;background-image:none;-webkit-border-bottom-left-radius: 4px;border-bottom-left-radius: 4px;-webkit-border-bottom-right-radius: 4px;border-bottom-right-radius: 4px;}#simplepage-2 .bitWidgetFrame{padding-left:0px;padding-right:0px;}body #simplepage-2 .bitWidgetFrame{padding-top:0px !important;padding-bottom:0px !important;}</style><div class='simplepage_container bitWidgetFrame' data-post_id='6570' ><section  data-fixheight="" class="qfy-row-5-633d7ae6efb83674644 section     no  section-text-no-shadow section-inner-no-shadow section-normal section-orgi mobileHidden"  id="bit_og2op"  style='margin-bottom:0;border-radius:0px;color:#969696;' >
+    <style class="row_class qfy_style_class">
+        @media only screen and (min-width: 992px){
+        section.section.qfy-row-5-633d7ae6efb83674644{padding-left:0;padding-right:0;padding-top:30px;padding-bottom:30px;margin-top:0;margin-bottom:0;}section.section.qfy-row-5-633d7ae6efb83674644 > .container{max-width:1200px;margin:0 auto;}}
+        
+        @media only screen and (max-width: 992px){
+        .bit-html section.section.qfy-row-5-633d7ae6efb83674644{padding-left:15px;padding-right:15px;padding-top:30px;padding-bottom:30px;margin-top:0;margin-bottom: !important;min-height:0;}}
+            </style>
+        
+
+            <div  class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #f3f3f3;"></div>
+        <div class="container">
+        <div class="row qfe_row  ">
+            <div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="" data-delay=""  class=" qfy-column-6-633d7ae6efbc7320500 qfy-column-inner  vc_span_class  vc_span8  text-default small-screen-undefined notfullrow"  data-dw="2/3" data-fixheight="" ><div style=";position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ><section  data-fixheight="" class="qfy-row-6-633d7ae6efc17618470 section     bothfull  section-text-no-shadow section-inner-no-shadow section-normal section-orgi"   style='margin-bottom:0;border-radius:0px;color:#969696;' >
+    <style class="row_class qfy_style_class">
+        @media only screen and (min-width: 992px){
+        section.section.qfy-row-6-633d7ae6efc17618470{padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;}}
+        
+        @media only screen and (max-width: 992px){
+        .bit-html section.section.qfy-row-6-633d7ae6efc17618470{padding-left:15px;padding-right:15px;padding-top:0;padding-bottom:0;margin-top:0;margin-bottom: !important;min-height:0;}}
+            </style>
+        
+
+            <div  class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: transparent;"></div>
+        <div class="container">
+        <div class="row qfe_row  ">
+            <div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="" data-delay=""  class=" qfy-column-7-633d7ae6efc46827623 qfy-column-inner  vc_span_class  vc_span2_4  text-default small-screen-default notfullrow"  data-dw="1/5" data-fixheight="" ><div style=";position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div id="vc_header_633d7ae6efca4565"  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_header_elwe1" data-anitime='0.7' data-ani_iteration_count='1'  class="qfy-element minheigh1px qfe_text_column qfe_content_element " style="position: relative;;;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"><style>@media only screen and (max-width: 768px) {#vc_header_633d7ae6efca4565 .header_title{font-size:16px !important;}}@media only screen and (max-width: 768px) {#vc_header_633d7ae6efca4565 .header_subtitle{font-size:12px !important;}}</style>
+		<div class="qfe_wrapper">
+			<div class="qfy_title left mobileleft"><div class="qfy_title_image_warpper" style="display:inline-block;position:relative;max-width:100%;"><div class="qfy_title_inner" style="display:inline-block;position:relative;max-width:100%;"><div class="header_title" style="font-family:微软雅黑;font-size:26px;font-weight:normal;font-style:normal;color:#666666;padding:0 0 5px 0;display:block;padding:0 0 5px 0;vertical-align:bottom;">联系</div><div class="header_subtitle" style="font-family:verdana;font-size:13px;font-weight:normal;font-style:normal;color:#969696;display:block;vertical-align:bottom;">Contact</div></div><style></style><div class="button_wrapper" style="display:none;"><div class="button " style="display:inline-block;max-width:100%;text-align:center; font-size:14px; color:#333; padding:5px;">+ 查看更多</div></div><span  style="clear:both;"></span></div></div>
+		</div> 
+	</div> </div></div></div><style class="column_class qfy_style_class">.qfy-column-7-633d7ae6efc46827623 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-7-633d7ae6efc46827623 {width:27.498170091541475%;}}@media only screen and (max-width: 992px){.qfy-column-7-633d7ae6efc46827623 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .qfe_row .vc_span_class.qfy-column-7-633d7ae6efc46827623 {width:27.498170091541475%;}.qfy-column-7-633d7ae6efc46827623 > .column_inner> .background-overlay,.qfy-column-7-633d7ae6efc46827623 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="" data-delay=""  class=" qfy-column-8-633d7ae6efcfa497589 qfy-column-inner  vc_span_class  vc_span4_8  text-default small-screen-default notfullrow"  data-dw="2/5" data-fixheight="" ><div style=";position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div  m-padding="0px 0px 12px 0px"  p-padding="0 0 12px 0" css_animation_delay="0" qfyuuid="qfy_column_text_ktqsy-c-s8" data-anitime='0.7'  class="qfy-element qfy-text qfy-text-71342 qfe_text_column qfe_content_element  mobile_fontsize " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:12px;padding-right:0;padding-left:0;border-radius:0px;" >
+		<div class="qfe_wrapper ">
+			<div><span style="font-size: 16px;"><span style="color: rgb(93, 93, 93);">关注我们</span></span><span style="font-size: 18px;"><br></span></div>
+		</div> 
+	</div> <div id="icons_list-633d7ae6efd801921" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_socail_icons_list_wwhfp"  class="qfy-icons_list  qfy-element " ><ul class="gallery_icons_list " style="text-align:left;"><li  style='display:inline-block;'  ><span data-desc='' data-tj='1' data-ta='2' data-width='150' data-bg='' data-image='' style='margin-right:10px;margin-bottom:px' class='black2 qfy-icon qfy-icon_24x24 weixin-icon_24x24' ></span></li><li  style='display:inline-block;'  ><span data-desc='' data-tj='1' data-ta='2' data-width='150' data-bg='' data-image='' style='margin-right:10px;margin-bottom:px' class='black2 qfy-icon qfy-icon_24x24 weibo-icon_24x24' ></span></li><li  style="clear:both;"></li></ul></div></div></div></div><style class="column_class qfy_style_class">.qfy-column-8-633d7ae6efcfa497589 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-8-633d7ae6efcfa497589 {width:32.5%;}}@media only screen and (max-width: 992px){.qfy-column-8-633d7ae6efcfa497589 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .qfe_row .vc_span_class.qfy-column-8-633d7ae6efcfa497589 {width:32.5%;}.qfy-column-8-633d7ae6efcfa497589 > .column_inner> .background-overlay,.qfy-column-8-633d7ae6efcfa497589 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="" data-delay=""  class=" qfy-column-9-633d7ae6efdc3227232 qfy-column-inner  vc_span_class  vc_span4_8  text-default small-screen-default notfullrow"  data-dw="2/5" data-fixheight="" ><div style=";position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div  m-padding="0px 0px 12px 0px"  p-padding="0 0 12px 0" css_animation_delay="0" qfyuuid="qfy_column_text_ktqsy-c-i7" data-anitime='0.7'  class="qfy-element qfy-text qfy-text-1550 qfe_text_column qfe_content_element  mobile_fontsize " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:12px;padding-right:0;padding-left:0;border-radius:0px;" >
+		<div class="qfe_wrapper ">
+			<div><span style="font-size: 16px;"><span style="color: rgb(93, 93, 93);">MetaMuse团队</span><br></span></div>
+		</div> 
+	</div> 
+	<div  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_column_text_ktqsy" data-anitime='0.7'  class="qfy-element qfy-text qfy-text-73878 qfe_text_column qfe_content_element  mobile_fontsize " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;border-radius:0px;" >
+		<div class="qfe_wrapper ">
+			<div><span style="font-size: 14px;">邮箱：cxyamalia@gmail.com </span></div>
+		</div> 
+	</div> </div></div></div><style class="column_class qfy_style_class">.qfy-column-9-633d7ae6efdc3227232 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-9-633d7ae6efdc3227232 {width:40%;}}@media only screen and (max-width: 992px){.qfy-column-9-633d7ae6efdc3227232 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .qfe_row .vc_span_class.qfy-column-9-633d7ae6efdc3227232 {width:40%;}.qfy-column-9-633d7ae6efdc3227232 > .column_inner> .background-overlay,.qfy-column-9-633d7ae6efdc3227232 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div class="wf-mobile-hidden qfy-clumn-clear" style="clear:both;"></div>        </div>
+    </div>
+
+</section></div></div></div><style class="column_class qfy_style_class">.qfy-column-6-633d7ae6efbc7320500 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-6-633d7ae6efbc7320500 {}}@media only screen and (max-width: 992px){.qfy-column-6-633d7ae6efbc7320500 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .qfe_row .vc_span_class.qfy-column-6-633d7ae6efbc7320500 {}.qfy-column-6-633d7ae6efbc7320500 > .column_inner> .background-overlay,.qfy-column-6-633d7ae6efbc7320500 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div   data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp"  data-duration="" data-delay=""  class=" qfy-column-10-633d7ae6efe71340326 qfy-column-inner  vc_span_class  vc_span4  text-default small-screen-default notfullrow"  data-dw="1/3" data-fixheight="" ><div style=";position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" ><section  data-fixheight="" class="qfy-row-7-633d7ae6efe9c647516 section     bothfull  section-text-no-shadow section-inner-no-shadow section-normal section-orgi"   style='margin-bottom:0;border-radius:0px;color:#000000;' >
+    <style class="row_class qfy_style_class">
+        @media only screen and (min-width: 992px){
+        section.section.qfy-row-7-633d7ae6efe9c647516{padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;}}
+        
+        @media only screen and (max-width: 992px){
+        .bit-html section.section.qfy-row-7-633d7ae6efe9c647516{padding-left:15px;padding-right:15px;padding-top:0;padding-bottom:;margin-top:0;margin-bottom: !important;}}
+            </style>
+        
+
+            <div  class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: transparent;"></div>
+        <div class="container">
+        <div class="row qfe_row  ">
+            <div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="" data-delay=""  class=" qfy-column-11-633d7ae6efec5543333 qfy-column-inner  vc_span_class  vc_span6  text-default small-screen-default notfullrow"  data-dw="1/2" data-fixheight="" ><div style=";position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div id="vc_img_633d7ae6f0111927" style="padding:0px;margin:0px;clear:both;position:relative;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-position:0 0;background-repeat: no-repeat;"     m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_single_image_hpy7i-c-m5" data-anitime='0.7' data-ani_iteration_count='1'  class="qfy-element bitImageControlDiv " ><style>@media only screen and (max-width: 768px) {.single_image_text-633d7ae6f0123790 .head{font-size: 16px !important;}.single_image_text-633d7ae6f0123790 .content{font-size: 16px !important;}}</style><a class="bitImageAhover  " >
+	<div class="bitImageParentDiv qfe_single_image qfe_content_element vc_align_center">
+		<div class="qfe_wrapper"><span></span></div>
+	</div> 
+	</div> </a>
+	<div  m-padding="8px 0px 0px 0px"  p-padding="8px 0 0 0" css_animation_delay="0" qfyuuid="qfy_column_text_hiuou-c-6c" data-anitime='0.7'  class="qfy-element qfy-text qfy-text-73454 qfe_text_column qfe_content_element  " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:8px;padding-bottom:0;padding-right:0;padding-left:0;border-radius:0px;" >
+		
+	</div> </div></div></div><style class="column_class qfy_style_class">.qfy-column-11-633d7ae6efec5543333 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-11-633d7ae6efec5543333 {}}@media only screen and (max-width: 992px){.qfy-column-11-633d7ae6efec5543333 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .qfe_row .vc_span_class.qfy-column-11-633d7ae6efec5543333 {}.qfy-column-11-633d7ae6efec5543333 > .column_inner> .background-overlay,.qfy-column-11-633d7ae6efec5543333 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="" data-delay=""  class=" qfy-column-12-633d7ae6f01a9739541 qfy-column-inner  vc_span_class  vc_span6  text-default small-screen-default notfullrow"  data-dw="1/2" data-fixheight="" ><div style=";position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div id="vc_img_633d7ae6f0299771" style="padding:0px;margin:0px;clear:both;position:relative;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-position:0 0;background-repeat: no-repeat;"     m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_single_image_hpy7i" data-anitime='0.7' data-ani_iteration_count='1'  class="qfy-element bitImageControlDiv " ><style>@media only screen and (max-width: 768px) {.single_image_text-633d7ae6f02a7608 .head{font-size: 16px !important;}.single_image_text-633d7ae6f02a7608 .content{font-size: 16px !important;}}</style><a class="bitImageAhover  " >
+	<div class="bitImageParentDiv qfe_single_image qfe_content_element vc_align_center">
+		<div class="qfe_wrapper"><span></span></div> 
+	</div> 
+	</div> </a>
+	<div  m-padding="8px 0px 0px 0px"  p-padding="8px 0 0 0" css_animation_delay="0" qfyuuid="qfy_column_text_hiuou" data-anitime='0.7'  class="qfy-element qfy-text qfy-text-29498 qfe_text_column qfe_content_element  " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:8px;padding-bottom:0;padding-right:0;padding-left:0;border-radius:0px;" >
+	
+	</div> </div></div></div><style class="column_class qfy_style_class">.qfy-column-12-633d7ae6f01a9739541 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-12-633d7ae6f01a9739541 {}}@media only screen and (max-width: 992px){.qfy-column-12-633d7ae6f01a9739541 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .qfe_row .vc_span_class.qfy-column-12-633d7ae6f01a9739541 {}.qfy-column-12-633d7ae6f01a9739541 > .column_inner> .background-overlay,.qfy-column-12-633d7ae6f01a9739541 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div class="wf-mobile-hidden qfy-clumn-clear" style="clear:both;"></div>        </div>
+    </div>
+
+</section></div></div></div><style class="column_class qfy_style_class">.qfy-column-10-633d7ae6efe71340326 > .column_inner {padding-left:114px;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-10-633d7ae6efe71340326 {}}@media only screen and (max-width: 992px){.qfy-column-10-633d7ae6efe71340326 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .qfe_row .vc_span_class.qfy-column-10-633d7ae6efe71340326 {}.qfy-column-10-633d7ae6efe71340326 > .column_inner> .background-overlay,.qfy-column-10-633d7ae6efe71340326 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style><div class="wf-mobile-hidden qfy-clumn-clear" style="clear:both;"></div>        </div>
+    </div>
+
+</section><section  data-fixheight="" class="qfy-row-8-633d7ae6f0349788862 section     no  section-text-no-shadow section-inner-no-shadow section-normal section-orgi"  id="bit_lwwae"  style='margin-bottom:0;border-radius:0px;color:#808080;' >
+    <style class="row_class qfy_style_class">
+        @media only screen and (min-width: 992px){
+        section.section.qfy-row-8-633d7ae6f0349788862{padding-left:0;padding-right:0;padding-top:10px;padding-bottom:10px;margin-top:0;margin-bottom:0;}section.section.qfy-row-8-633d7ae6f0349788862 > .container{max-width:1200px;margin:0 auto;}}
+        
+        @media only screen and (max-width: 992px){
+        .bit-html section.section.qfy-row-8-633d7ae6f0349788862{padding-left:15px;padding-right:15px;padding-top:10px;padding-bottom:10px;margin-top:0;margin-bottom: !important;min-height:0;}}
+            </style>
+        
+
+            <div  class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #ffffff;"></div>
+        <div class="container">
+        <div class="row qfe_row  ">
+            <div   data-animaleinbegin="90%" data-animalename="qfyfadeInUp"  data-duration="" data-delay=""  class=" qfy-column-13-633d7ae6f037d610752 qfy-column-inner  vc_span12  text-default small-screen-undefined fullrow"  data-dw="1/1" data-fixheight="" ><div style=";position:relative;" class="column_inner " ><div   class=" background-overlay grid-overlay-" style="background-color: transparent;width:100%;"></div><div class="column_containter" style="z-index:3;position:relative;" >
+	<div  m-padding="0px 0px 0px 0px"  p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_column_text_8s8gz" data-anitime='0.7' data-ani_iteration_count='1'  class="qfy-element qfy-text qfy-text-6563 qfe_text_column qfe_content_element  mobile_fontsize " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;border-radius:0px;" >
+		<div class="qfe_wrapper ">
+			<div><span style="font-size: 12px;">本网站系“全景与远景：数字人文与国家文化数字化战略——2022年中国数字人文年会”参赛项目成果</span></div>
+		</div> 
+	</div> </div></div></div><style class="column_class qfy_style_class">.qfy-column-13-633d7ae6f037d610752 > .column_inner {padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;}@media only screen and (min-width: 992px){.qfe_row .vc_span_class.qfy-column-13-633d7ae6f037d610752 {}}@media only screen and (max-width: 992px){.qfy-column-13-633d7ae6f037d610752 > .column_inner{margin:0 auto 0 !important;padding-left:0;padding-right:0;padding-top:;padding-bottom:;}.display_entire .qfe_row .vc_span_class.qfy-column-13-633d7ae6f037d610752 {}.qfy-column-13-633d7ae6f037d610752 > .column_inner> .background-overlay,.qfy-column-13-633d7ae6f037d610752 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style>        </div>
+    </div>
+
+</section></div></section>		</div>
+							</div><!-- .wf-wrap -->
+	<!--  ************begin************* -->
+<style type="text/css" id="static-stylesheet-footer">
+#footer.footer .footer1 .widget{width: 99%;}#footer.footer .footer1 .widget.simplepage{width: 100%;}.bit_main_content{margin-top:0px;margin-bottom:0px}
+#footer .wf-wrap,.content-fullwidth.mini-boxed-layout #page #footer .wf-wrap .qfe_row {padding:0;}
+</style>
+
+<!--  ************end************* -->
+</footer>
+		
+
+
+
+<a href="#" class="scroll-top wf-mobile-hidden"></a>
+
+</div><!-- #page -->
+
+<link rel='stylesheet' id='vc_icon-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/css/vc_icon.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_btn-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/css/vc_btn.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-settings-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.1.4&ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-captions-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/revslider/rs-plugin/css/dynamic-captions.css?rev=4.1.4&ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-static-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/revslider/rs-plugin/css/static-captions.css?rev=4.1.4&ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_qf_icon-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/css/vc_qf_icon.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='rightbar_css-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/css/rightbar.css?ver=4.45' type='text/css' media='all' />
+<link rel='stylesheet' id='scroll_top_css-css'  href='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/css/scroll_top.css?ver=4.45' type='text/css' media='all' />
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/bitcommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=4.45'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bitcommerce_params = {"ajax_url":"\/admin\/admin-ajax.php","ajax_loader_url":"\/\/5cdd3aa5c46ea.t73.qifeiye.com\/qfy-content\/plugins\/bitcommerce\/assets\/images\/ajax-loader@2x.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/bitcommerce/assets/js/frontend/bitcommerce.min.js?ver=4.45'></script>
+<script type='text/javascript' src='//5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/bitcommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=4.45'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/admin\/admin-ajax.php","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/bitcommerce/assets/js/frontend/cart-fragments.min.js?ver=4.45'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/js/qfy_editor_front.js?ver=4.45'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/lib/vc_carousel/js/transition.js?ver=4.45'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/lib/vc_carousel/js/vc_carousel.js?ver=4.45'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/lib/jquery-waypoints/waypoints.min.js?ver=4.45'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dtLocal = {"passText":"To view this protected post, enter the password below:","moreButtonAllLoadedText":"Everything is loaded","postID":"2160","ajaxurl":"https:\/\/5cdd3aa5c46ea.t73.qifeiye.com\/admin\/admin-ajax.php","contactNonce":"e1351b36bf","ajaxNonce":"cfb6560978","pageData":{"type":"page","template":"page","layout":null},"themeSettings":{"smoothScroll":"on"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/js/plugins.js?ver=4.45'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/FeiEditor/bitSite/js/opentip-jquery.min.js?ver=4.45'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/js/language.js?ver=4.45'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/themes/qfy-01/js/main.js?ver=4.45'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"\u4e0b\u4e00\u5f20 >","prev":"< \u4e0a\u4e00\u5f20","image":"\u56fe\u7247","of":"\/","close":"\u5173\u95ed","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"\/\/f.goodq.top\/FeiEditor\/bitSite\/images\/preloader.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-includes/js/jquery.lazy.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/revslider/rs-plugin/js/jquery.themepunch.plugins.min.js?rev=4.1.4&ver=4.45'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.1.4&ver=4.45'></script>
+<script type='text/javascript' src='https://5cdd3aa5c46ea.t73.qifeiye.com/qfy-content/plugins/qfy_editor/assets/lib/isotope/jquery.isotope.min.js?ver=4.45'></script>
+<script type="text/javascript">				jQuery(document).ready(function() {
+					if("off"=="on" && top!=self){
+						setTimeout("run_revApi()",300);
+					}else{
+						run_revApi();
+					}
+
+				});
+                </script><div style='display:none;'></div>        
+    <script type="text/javascript">
+        var _paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//t2.qifeiye.com/";
+            _paq.push(['setTrackerUrl', u+'js/tracker.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/tracker.php'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    </body>
+
+</html>
