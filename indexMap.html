@@ -102,7 +102,7 @@
             securityJsCode: '451a55b56a0cc5e4bede7b56e3147c34',
         }
     </script>
-    <script src="https://webapi.amap.com/maps?v=2.0&key=7e0beb8d35c07599faed4d0f2c2c045a&&plugin=AMap.Scale,AMap.HawkEye,AMap.ToolBar,AMap.ControlBar,AMap.PlaceSearch,AMap.InfoWindow,AMap.Driving,AMap.AutoComplete"></script>
+    <script src="https://webapi.amap.com/maps?v=2.0&key=7e0beb8d35c07599faed4d0f2c2c045a&&plugin=AMap.Scale,AMap.HawkEye,AMap.ToolBar,AMap.ControlBar,AMap.PlaceSearch,AMap.InfoWindow,AMap.Driving,AMap.AutoComplete,AMap.Transfer,AMap.Riding,AMap.Walking"></script>
     <script src="https://webapi.amap.com/loca?v=2.0&key=7e0beb8d35c07599faed4d0f2c2c045a"></script>
     <script type="text/javascript" src="https://cache.amap.com/lbs/static/addToolbar.js">
     </script>
@@ -137,10 +137,15 @@
 				<div class="search">
 					<span>出发地:<input type="text" class="txt" id="start"></span>
 					<span>目的地:<input type="text" class="txt" id="end"></span>
-					<input type="button" value="查询" class="btn" οnclick="toSearch();">
+					<input type="button" value="公交" class="btn" onclick="goto();">
+                    <input type="button" value="驾车" class="btn" onclick="goto1();">
+                    <input type="button" value="步行" class="btn" onclick="goto2();">
+                    <input type="button" value="骑行" class="btn" onclick="goto3();">
 				</div>
 			</div>
 		</div>		
+        <div id="tip" class='info' style='min-width:18rem;'></div>
+
         <div id="map"></div>
 		<div id="panel"></div>
         <div class="title">
@@ -2299,7 +2304,6 @@
         labelsLayer.setStyle({
           
           text: {
-              // 每项配置都可使用回调函数来动态配置
               content: (index, feat) => {
                   return feat.properties.name;
               },
@@ -2361,8 +2365,111 @@
             placeSearch.search(e.poi.name); 
         }
     });  
+    AMap.plugin('AMap.Geolocation', function() {
+        var geolocation = new AMap.Geolocation({
+            enableHighAccuracy: true,
+            timeout: 10000,          
+            buttonPosition:'RB',    
+            buttonOffset: new AMap.Pixel(10, 20),
+            zoomToAccuracy: true,   
+ 
+        });
+        map.addControl(geolocation);
+        /* geolocation.getCurrentPosition(function(status,result){
+            if(status=='complete'){
+                onComplete(result);
+            }else{
+                onError(result);
+            }
+        }); */
+    });
   
+    function onComplete(data) {
+        document.getElementById('status').innerHTML='定位成功';
+        var str = [];
+        str.push('定位结果：' + data.position);
+        str.push('定位类别：' + data.location_type);
+        if(data.accuracy){
+             str.push('精度：' + data.accuracy + ' 米');
+        }
+        str.push('是否经过偏移：' + (data.isConverted ? '是' : '否'));
+        document.getElementById('result').innerHTML = str.join('<br>');
+    }
+    //解析定位错误信息
+    function onError(data) {
+        document.getElementById('status').innerHTML='定位失败'
+        document.getElementById('result').innerHTML = '失败原因排查信息:'+data.message;
+    }
+	
+		var transOptions = {
+        map: map,
+        city: '北京市',
+        panel: 'panel',                           
+        policy: AMap.TransferPolicy.LEAST_TIME 
+    };
+ 
+    var transfer = new AMap.Transfer(transOptions);
+	
+	function goto(){
+	var start = document.getElementById("start").value;
+	var end = document.getElementById("end").value;
+   
+    transfer.search([
+      {keyword: start,city:'北京'},
+     
+      {keyword: end,city:'北京'}
+      
+      ]);
+	}
+
+    var driving = new AMap.Driving({
+        map: map,
+        panel: 'panel',
+        policy: AMap.DrivingPolicy.LEAST_TIME 
+    }); 
   
+    function goto1(){
+	var start = document.getElementById("start").value;
+	var end = document.getElementById("end").value;
+   
+    driving.search([
+      {keyword: start,city:'北京'},
+     
+      {keyword: end,city:'北京'}
+      
+    ]);}
+
+    var walking = new AMap.Walking({
+        map: map,
+        panel: 'panel'
+    }); 
+  
+    function goto2(){
+	var start = document.getElementById("start").value;
+	var end = document.getElementById("end").value;
+   
+    walking.search([
+      {keyword: start,city:'北京'},
+     
+      {keyword: end,city:'北京'}
+      
+    ]);}
+    
+    var riding = new AMap.Riding({
+        map: map,
+        panel: 'panel'
+    }); 
+  
+    function goto3(){
+	var start = document.getElementById("start").value;
+	var end = document.getElementById("end").value;
+   
+    riding.search([
+      {keyword: start,city:'北京'},
+     
+      {keyword: end,city:'北京'}
+      
+    ]);}
 
     </script>
 </body>
